@@ -6,7 +6,7 @@
 /*   By: wstygg <wstygg@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/03 19:59:05 by wstygg            #+#    #+#             */
-/*   Updated: 2021/01/03 19:59:05 by wstygg           ###   ########.fr       */
+/*   Updated: 2021/01/08 19:10:11 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,25 +19,36 @@
 
 # define USAGE "usage: ft_ssl command [-pqr] [-s string] [files ...]"
 
-enum				e_type
+enum				e_commands
 {
-	IS_MD5 = 1,
-	IS_SHA256
+	MD5 = 1,
+	SHA256,
+	COMMANDS_N
 };
 
 typedef struct		s_flags
 {
 	unsigned		p : 1;
-	unsigned		q : 1;
-	unsigned		r : 1;
-	unsigned		s : 1;
+	unsigned 		q : 1;
+	unsigned 		r : 1;
+	unsigned 		error : 1;
 	char			*string;
 }					t_flags;
 
 typedef struct		s_ssl
 {
 	t_flags			flags;
-	int				type;
+	int				command;
+	char			**argv;
+	char			**paths;
 }					t_ssl;
+
+void				setup_ssl(t_ssl *ssl, char *argv[]);
+
+void				check_flags(t_ssl *ssl);
+const char			**get_commands();
+void				put_info(const char *command);
+
+void				initialize_readline(void);
 
 #endif

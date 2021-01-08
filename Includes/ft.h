@@ -6,7 +6,7 @@
 /*   By: wstygg <wstygg@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/03 19:59:15 by wstygg            #+#    #+#             */
-/*   Updated: 2021/01/03 19:59:15 by wstygg           ###   ########.fr       */
+/*   Updated: 2021/01/06 22:39:03 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,16 +24,28 @@
 # define IS_X			4
 # define IS_D			8
 
+# define READ_SIZE		3
+
 void			*ft_malloc(size_t size);
 size_t			ft_putstr_fd(const char *str, int fd);
 size_t			ft_putendl_fd(const char *str, int fd);
 size_t			ft_strlen(const char *str);
 int				ft_strcmp(const char *s1, const char *s2);
 char			*ft_strdup(const char *str);
+void			ft_strextend(char **str_p, size_t size);
+char			*ft_str_to_upper(const char *str);
+char			**ft_strsplit(char const *s, register char c);
+void			ft_free_split(register char **array);
+int				ft_strncmp(register void *s1,
+				  register void *s2, register size_t n);
+char			*ft_strchr(const char *s, int c);
+
+int				ft_str_is_empty(const char *str);
 void			ft_free(void **to_free);
 void			ft_crash(const char *str);
 
 int				ft_check_file(const char *path, unsigned check);
-int				ft_file_open(const char *path);
+int				ft_open_file(const char *path);
+char			*ft_read_file(int fd);
 
 #endif

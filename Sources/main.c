@@ -6,82 +6,110 @@
 /*   By: wstygg <wstygg@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/03 19:59:11 by wstygg            #+#    #+#             */
-/*   Updated: 2021/01/03 19:59:30 by wstygg           ###   ########.fr       */
+/*   Updated: 2021/01/08 22:05:27 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_ssl.h"
 
-static void			put_info(const char *command)
-{
-	ft_putstr_fd("ft_ssl: Error: '", 2);
-	ft_putstr_fd(command, 2);
-	ft_putendl_fd("' is an invalid command.", 2);
-	ft_putendl_fd("\nStandard commands:", 2);
-	ft_putstr_fd("", 2);
-	ft_putendl_fd("\nMessage Digest commands:", 2);
-	ft_putendl_fd("md5\nsha256\n", 2);
-	ft_putendl_fd("\nCipher commands:", 2);
-	ft_putendl_fd("", 2);
-}
-
-static int			check_command(const char *command)
+static int			check_command(char **argv)
 {
 	int				type;
+	char			*upper;
+	int				i;
 
 	type = 0;
-	if (!ft_strcmp(command, "md5"))
-		type = IS_MD5;
-	else if (!ft_strcmp(command, "sha256"))
-		type = IS_SHA256;
+	upper = ft_str_to_upper(argv[0]);
+	i = 0;
+	while (++i < COMMANDS_N)
+		if (!ft_strcmp(upper, get_commands()[i - 1]))
+		{
+			type = i;
+			break ;
+		}
+	free(upper);
 	return (type);
 }
 
-static void			check_flags(char ***argv_p, t_flags *flags)
+void				do_hash(t_ssl *ssl)
 {
-	char			*str;
+	printf("Current alg - %d\nFlags: r - %u q - %u p - %u s - %s\n",
+		ssl->command, ssl->flags.r, ssl->flags.q, ssl->flags.p,
+		ssl->flags.string);
+}
 
-	*argv_p += 2;
-	while (**argv_p && (**argv_p)[0] == '-')
+static void			reset_ssl(t_ssl *ssl)
+{
+	ft_free(((void**)&ssl->flags.string));
+	ssl->flags = (t_flags){0};
+}
+
+static char			*get_command()
+{
+	char			*command;
+
+	while (ft_str_is_empty(command))
+		if (!(command = readline("ft_ssl> ")))
+			exit(0);
+	return (command);
+}
+
+static void			hashing_loop(t_ssl *ssl)
+{
+	char			*command;
+
+	command = NULL;
+	while (42)
 	{
-		str = **argv_p;
-		if (!ft_strcmp(str, "-p"))
-			flags->p = 1;
-		else if (!ft_strcmp(str, "-q"))
-			flags->q = 1;
-		else if (!ft_strcmp(str, "-r"))
-			flags->r = 1;
-		else if (!ft_strcmp(str, "-s") && *(*argv_p + 1))
+		free(command);
+		command = get_command();
+		add_history(command);
+		ft_free_split(ssl->argv);
+		ssl->argv = ft_strsplit(command, ' ');
+		while (!(ssl->command = check_command(ssl->argv)))
 		{
-			flags->s = 1;
-			flags->string = ft_strdup(*(*argv_p + 1));
-			++*argv_p;
+			put_info(command);
+			ft_free((void**)&command);
+			command = get_command();
+			add_history(command);
+			ft_free_split(ssl->argv);
+			ssl->argv = ft_strsplit(command, ' ');
 		}
-		else
-			ft_crash(USAGE);
-		++*argv_p;
+		check_flags(ssl);
+		if (!ssl->flags.error)
+			do_hash(ssl);
+		reset_ssl(ssl);
 	}
+}
+
+static void			hash_from_args(t_ssl *ssl)
+{
+	if ((ssl->command = check_command(ssl->argv)))
+	{
+		check_flags(ssl);
+		if (!ssl->flags.error)
+			return (do_hash(ssl));
+		ft_putendl_fd(USAGE, 2);
+	}
+	if (!ssl->flags.error)
+		put_info(ssl->argv[0]);
+	reset_ssl(ssl);
+	hashing_loop(ssl);
 }
 
 int					main(int argc, char *argv[])
 {
 	t_ssl			ssl;
-	char			*command;
 
-	if (argc < 2)
-		ft_crash(USAGE);
-	command = ft_strdup(argv[1]);
-	while (!(ssl.type = check_command(command)))
+	ssl = (t_ssl){0};
+	setup_ssl(&ssl, argv);
+	initialize_readline();
+	if (argc > 1)
+		hash_from_args(&ssl);
+	else
 	{
-		put_info(argv[1]);
-		free(command);
-		command = readline("ft_ssl> ");
+		ft_putendl_fd(USAGE, 2);
+		hashing_loop(&ssl);
 	}
-	check_flags(&argv, &ssl.flags);
-	while (*argv)
-	{
-		ft_putendl_fd(*argv, 1);
-		argv++;
-	}
-	return (0);
+	exit(0);
 }

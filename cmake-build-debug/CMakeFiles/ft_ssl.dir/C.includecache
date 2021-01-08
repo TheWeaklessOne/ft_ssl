@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Includes/ft.h
+fcntl.h
+-
+unistd.h
+-
+stdlib.h
+-
+sys/stat.h
+-
+
+../Includes/ft_ssl.h
+readline/readline.h
+-
+ft.h
+../Includes/ft.h
+
+/Users/wstygg/Desktop/ft_ssl/Sources/check_flags.c
+ft_ssl.h
+/Users/wstygg/Desktop/ft_ssl/Sources/ft_ssl.h
+

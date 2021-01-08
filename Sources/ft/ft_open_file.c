@@ -6,7 +6,7 @@
 /*   By: wstygg <wstygg@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/03 19:59:28 by wstygg            #+#    #+#             */
-/*   Updated: 2021/01/03 19:59:30 by wstygg           ###   ########.fr       */
+/*   Updated: 2021/01/06 21:32:59 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,15 +34,21 @@ int				ft_check_file(const char *file, unsigned check)
 int				ft_open_file(const char *path)
 {
 	int				ret;
+	int				error;
 
+	error = 0;
 	if (ft_check_file(path, IS_E) <= 0)
-		write(2, "No such file ", 13);
-	if ((ret = open(path, O_RDONLY)) < 0)
-		write(2, "Can't open that file ", 21);
-	if (!ft_check_file(path, IS_R))
-		write(2, "Can't read from that file ", 26);
-	if (ft_check_file(path, IS_D))
-		write(2, "It's a directory ", 17);
-	ft_crash(path);
+		error += write(2, "ft_ssl: no such file - ", 23);
+	else if ((ret = open(path, O_RDONLY)) < 0)
+		error += write(2, "ft_ssl: can't open that file - ", 31);
+	else if (!ft_check_file(path, IS_R))
+		error += write(2, "ft_ssl: can't read from that file - ", 36);
+	else if (ft_check_file(path, IS_D))
+		error += write(2, "ft_ssl: it's a directory - ", 27);
+	if (error)
+	{
+		ft_putendl_fd(path, 2);
+		return (-1);
+	}
 	return (ret);
 }
