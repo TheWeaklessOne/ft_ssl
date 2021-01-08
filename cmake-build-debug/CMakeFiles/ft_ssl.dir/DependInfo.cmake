@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/wstygg/Desktop/ft_ssl/Sources/ft/ft_open_file.c" "/Users/wstygg/Desktop/ft_ssl/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/ft/ft_open_file.c.o"
   "/Users/wstygg/Desktop/ft_ssl/Sources/ft/ft_read_file.c" "/Users/wstygg/Desktop/ft_ssl/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/ft/ft_read_file.c.o"
   "/Users/wstygg/Desktop/ft_ssl/Sources/ft/ft_strsplit.c" "/Users/wstygg/Desktop/ft_ssl/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/ft/ft_strsplit.c.o"
+  "/Users/wstygg/Desktop/ft_ssl/Sources/ft/list.c" "/Users/wstygg/Desktop/ft_ssl/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/ft/list.c.o"
   "/Users/wstygg/Desktop/ft_ssl/Sources/get_commands.c" "/Users/wstygg/Desktop/ft_ssl/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/get_commands.c.o"
   "/Users/wstygg/Desktop/ft_ssl/Sources/main.c" "/Users/wstygg/Desktop/ft_ssl/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/main.c.o"
   "/Users/wstygg/Desktop/ft_ssl/Sources/put_info.c" "/Users/wstygg/Desktop/ft_ssl/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/put_info.c.o"

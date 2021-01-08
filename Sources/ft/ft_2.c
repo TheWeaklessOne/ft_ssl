@@ -91,5 +91,6 @@ char				*ft_str_to_upper(const char *str)
 			c -= 32;
 		ret[i] = c;
 	}
+	ret[i] = '\0';
 	return (ret);
 }

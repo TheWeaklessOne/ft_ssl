@@ -16,15 +16,16 @@ OBJ_DIR		=	.objs/
 SRC_BASE	=	ft/ft_1.c			\
 				ft/ft_2.c			\
 				ft/ft_3.c			\
+				ft/list.c			\
 				ft/ft_strsplit.c	\
 				ft/ft_open_file.c	\
 				ft/ft_read_file.c	\
-				get_commands.c		\
 				main.c				\
 				put_info.c			\
-				setup_readline.c	\
 				setup_ssl.c			\
 				check_flags.c		\
+				get_commands.c		\
+				setup_readline.c	\
 
 SRCS		=	$(addprefix $(SRC_DIR), $(SRC_BASE))
 OBJS		=	$(addprefix $(OBJ_DIR), $(SRC_BASE:.c=.o))

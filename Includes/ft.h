@@ -18,6 +18,8 @@
 # include <stdlib.h>
 # include <sys/stat.h>
 
+#include "list.h"
+
 # define IS_E			0
 # define IS_R			1
 # define IS_W			2

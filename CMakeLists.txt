@@ -11,4 +11,4 @@ add_executable(ft_ssl Sources/ft/ft_1.c
         Sources/ft/ft_read_file.c
         Sources/ft/ft_strsplit.c
         Sources/main.c
-        Sources/get_commands.c Sources/put_info.c Sources/setup_readline.c Sources/ft/ft_3.c Sources/setup_ssl.c Sources/check_flags.c)
+        Sources/get_commands.c Sources/put_info.c Sources/setup_readline.c Sources/ft/ft_3.c Sources/setup_ssl.c Sources/check_flags.c Includes/list.h Sources/ft/list.c)

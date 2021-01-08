@@ -332,6 +332,33 @@ Sources/ft/ft_strsplit.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/ft_strsplit.c.s
 .PHONY : Sources/ft/ft_strsplit.c.s
 
+Sources/ft/list.o: Sources/ft/list.c.o
+
+.PHONY : Sources/ft/list.o
+
+# target to build an object file
+Sources/ft/list.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/list.c.o
+.PHONY : Sources/ft/list.c.o
+
+Sources/ft/list.i: Sources/ft/list.c.i
+
+.PHONY : Sources/ft/list.i
+
+# target to preprocess a source file
+Sources/ft/list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/list.c.i
+.PHONY : Sources/ft/list.c.i
+
+Sources/ft/list.s: Sources/ft/list.c.s
+
+.PHONY : Sources/ft/list.s
+
+# target to generate assembly for a file
+Sources/ft/list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/list.c.s
+.PHONY : Sources/ft/list.c.s
+
 Sources/get_commands.o: Sources/get_commands.c.o
 
 .PHONY : Sources/get_commands.o
@@ -497,6 +524,9 @@ help:
 	@echo "... Sources/ft/ft_strsplit.o"
 	@echo "... Sources/ft/ft_strsplit.i"
 	@echo "... Sources/ft/ft_strsplit.s"
+	@echo "... Sources/ft/list.o"
+	@echo "... Sources/ft/list.i"
+	@echo "... Sources/ft/list.s"
 	@echo "... Sources/get_commands.o"
 	@echo "... Sources/get_commands.i"
 	@echo "... Sources/get_commands.s"

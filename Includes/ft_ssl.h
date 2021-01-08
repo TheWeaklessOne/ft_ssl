@@ -6,7 +6,7 @@
 /*   By: wstygg <wstygg@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/03 19:59:05 by wstygg            #+#    #+#             */
-/*   Updated: 2021/01/08 19:10:11 by wstygg           ###   ########.fr       */
+/*   Updated: 2021/01/08 23:00:49 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ typedef struct		s_flags
 	unsigned 		q : 1;
 	unsigned 		r : 1;
 	unsigned 		error : 1;
-	char			*string;
+	t_list			*strings;
 }					t_flags;
 
 typedef struct		s_ssl
@@ -40,7 +40,6 @@ typedef struct		s_ssl
 	t_flags			flags;
 	int				command;
 	char			**argv;
-	char			**paths;
 }					t_ssl;
 
 void				setup_ssl(t_ssl *ssl, char *argv[]);
