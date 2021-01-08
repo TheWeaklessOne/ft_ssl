@@ -21,10 +21,12 @@ SRC_BASE	=	ft/ft_1.c			\
 				ft/ft_open_file.c	\
 				ft/ft_read_file.c	\
 				main.c				\
+				do_hash.c			\
 				put_info.c			\
 				setup_ssl.c			\
 				check_flags.c		\
 				get_commands.c		\
+				check_command.c		\
 				setup_readline.c	\
 
 SRCS		=	$(addprefix $(SRC_DIR), $(SRC_BASE))

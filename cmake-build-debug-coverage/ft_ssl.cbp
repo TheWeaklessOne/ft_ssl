@@ -83,7 +83,13 @@
 		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Includes/list.h">
 			<Option target="ft_ssl"/>
 		</Unit>
+		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/check_command.c">
+			<Option target="ft_ssl"/>
+		</Unit>
 		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/check_flags.c">
+			<Option target="ft_ssl"/>
+		</Unit>
+		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/do_hash.c">
 			<Option target="ft_ssl"/>
 		</Unit>
 		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/ft/ft_1.c">

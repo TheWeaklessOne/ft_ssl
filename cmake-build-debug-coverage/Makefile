@@ -143,6 +143,33 @@ ft_ssl/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/build
 .PHONY : ft_ssl/fast
 
+Sources/check_command.o: Sources/check_command.c.o
+
+.PHONY : Sources/check_command.o
+
+# target to build an object file
+Sources/check_command.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/check_command.c.o
+.PHONY : Sources/check_command.c.o
+
+Sources/check_command.i: Sources/check_command.c.i
+
+.PHONY : Sources/check_command.i
+
+# target to preprocess a source file
+Sources/check_command.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/check_command.c.i
+.PHONY : Sources/check_command.c.i
+
+Sources/check_command.s: Sources/check_command.c.s
+
+.PHONY : Sources/check_command.s
+
+# target to generate assembly for a file
+Sources/check_command.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/check_command.c.s
+.PHONY : Sources/check_command.c.s
+
 Sources/check_flags.o: Sources/check_flags.c.o
 
 .PHONY : Sources/check_flags.o
@@ -169,6 +196,33 @@ Sources/check_flags.s: Sources/check_flags.c.s
 Sources/check_flags.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/check_flags.c.s
 .PHONY : Sources/check_flags.c.s
+
+Sources/do_hash.o: Sources/do_hash.c.o
+
+.PHONY : Sources/do_hash.o
+
+# target to build an object file
+Sources/do_hash.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/do_hash.c.o
+.PHONY : Sources/do_hash.c.o
+
+Sources/do_hash.i: Sources/do_hash.c.i
+
+.PHONY : Sources/do_hash.i
+
+# target to preprocess a source file
+Sources/do_hash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/do_hash.c.i
+.PHONY : Sources/do_hash.c.i
+
+Sources/do_hash.s: Sources/do_hash.c.s
+
+.PHONY : Sources/do_hash.s
+
+# target to generate assembly for a file
+Sources/do_hash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/do_hash.c.s
+.PHONY : Sources/do_hash.c.s
 
 Sources/ft/ft_1.o: Sources/ft/ft_1.c.o
 
@@ -503,9 +557,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ft_ssl"
+	@echo "... Sources/check_command.o"
+	@echo "... Sources/check_command.i"
+	@echo "... Sources/check_command.s"
 	@echo "... Sources/check_flags.o"
 	@echo "... Sources/check_flags.i"
 	@echo "... Sources/check_flags.s"
+	@echo "... Sources/do_hash.o"
+	@echo "... Sources/do_hash.i"
+	@echo "... Sources/do_hash.s"
 	@echo "... Sources/ft/ft_1.o"
 	@echo "... Sources/ft/ft_1.i"
 	@echo "... Sources/ft/ft_1.s"

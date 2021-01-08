@@ -6,7 +6,7 @@
 /*   By: wstygg <wstygg@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/08 19:01:18 by wstygg            #+#    #+#             */
-/*   Updated: 2021/01/08 22:35:53 by wstygg           ###   ########.fr       */
+/*   Updated: 2021/01/08 23:02:32 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,8 @@ void		check_flags(t_ssl *ssl)
 		{
 			if (!*(paths + 1))
 				return (drop_error(NO_ARG_ERR, NULL, ssl));
-			ssl->flags.strings = list_add_back(ssl->flags.strings, ft_strdup(*++paths));
+			ssl->flags.strings = list_add_back(ssl->flags.strings,
+									ft_strdup(*++paths));
 		}
 		if (*c)
 			return (drop_error(UNKNOWN_FLAG, c, ssl));

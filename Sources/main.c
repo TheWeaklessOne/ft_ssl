@@ -6,62 +6,30 @@
 /*   By: wstygg <wstygg@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/03 19:59:11 by wstygg            #+#    #+#             */
-/*   Updated: 2021/01/08 23:22:23 by wstygg           ###   ########.fr       */
+/*   Updated: 2021/01/09 00:00:48 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_ssl.h"
 
- int			check_command(char **argv)
-{
-	int				type;
-	char			*upper;
-	int				i;
-
-	type = 0;
-	upper = ft_str_to_upper(argv[0]);
-	i = 0;
-	while (++i < COMMANDS_N)
-		if (!ft_strcmp(upper, get_commands()[i - 1]))
-		{
-			type = i;
-			break ;
-		}
-	free(upper);
-	return (type);
-}
-
-void				do_hash(t_ssl *ssl)
-{
-	printf("Current alg - %d\nFlags: r - %u q - %u p - %u",
-		ssl->command, ssl->flags.r, ssl->flags.q, ssl->flags.p);
-	t_list *lst = ssl->flags.strings;
-	while (lst)
-	{
-		printf(" s - %s ", (char*)lst->content);
-		lst = lst->next;
-	}
-	printf("\n");
-}
-
- void			reset_ssl(t_ssl *ssl)
+static void			reset_ssl(t_ssl *ssl)
 {
 	ssl->flags.strings = list_remove_all(ssl->flags.strings, 1);
 	ssl->flags = (t_flags){0};
 }
 
- char			*get_command()
+static char			*get_command(void)
 {
 	char			*command;
 
 	command = NULL;
 	while (ft_str_is_empty(command))
-		if (!(command = readline("ft_ssl> ")))
+		if (!(command = readline("ft_ssl> ")) || !ft_strcmp(command, "exit"))
 			exit(0);
 	return (command);
 }
 
- void			hashing_loop(t_ssl *ssl)
+static void			hashing_loop(t_ssl *ssl)
 {
 	char			*command;
 
@@ -89,7 +57,7 @@ void				do_hash(t_ssl *ssl)
 	}
 }
 
- void			hash_from_args(t_ssl *ssl)
+static void			hash_from_args(t_ssl *ssl)
 {
 	if ((ssl->command = check_command(ssl->argv)))
 	{

@@ -6,7 +6,7 @@
 /*   By: wstygg <wstygg@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/03 19:59:15 by wstygg            #+#    #+#             */
-/*   Updated: 2021/01/06 22:39:03 by wstygg           ###   ########.fr       */
+/*   Updated: 2021/01/08 23:53:36 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 # include <stdlib.h>
 # include <sys/stat.h>
 
-#include "list.h"
+# include "list.h"
 
 # define IS_E			0
 # define IS_R			1
@@ -39,12 +39,12 @@ char			*ft_str_to_upper(const char *str);
 char			**ft_strsplit(char const *s, register char c);
 void			ft_free_split(register char **array);
 int				ft_strncmp(register void *s1,
-				  register void *s2, register size_t n);
+					register void *s2, register size_t n);
 char			*ft_strchr(const char *s, int c);
+size_t			ft_strarraylen(char **array);
 
 int				ft_str_is_empty(const char *str);
 void			ft_free(void **to_free);
-void			ft_crash(const char *str);
 
 int				ft_check_file(const char *path, unsigned check);
 int				ft_open_file(const char *path);

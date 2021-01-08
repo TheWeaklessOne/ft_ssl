@@ -1,31 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   list.h                                             :+:      :+:    :+:   */
+/*   check_command.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: wstygg <wstygg@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/08 23:53:08 by wstygg            #+#    #+#             */
-/*   Updated: 2021/01/08 23:53:08 by wstygg           ###   ########.fr       */
+/*   Created: 2021/01/09 00:00:26 by wstygg            #+#    #+#             */
+/*   Updated: 2021/01/09 00:00:26 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_SSL_LIST_H
-# define FT_SSL_LIST_H
+#include "ft_ssl.h"
 
-# include <unistd.h>
-# include <stdlib.h>
-
-typedef	struct			s_list
+int				check_command(char **argv)
 {
-	void				*content;
-	struct s_list		*next;
-}						t_list;
+	int			type;
+	char		*upper;
+	int			i;
 
-t_list					*list_add_back(t_list *list, void *content);
-t_list					*list_create(void *content);
-t_list					*list_remove_all(t_list *lst, int to_free);
-
-void					ft_crash(const char *str);
-
-#endif
+	type = 0;
+	upper = ft_str_to_upper(argv[0]);
+	i = 0;
+	while (++i < COMMANDS_N)
+		if (!ft_strcmp(upper, get_commands()[i - 1]))
+		{
+			type = i;
+			break ;
+		}
+	free(upper);
+	return (type);
+}

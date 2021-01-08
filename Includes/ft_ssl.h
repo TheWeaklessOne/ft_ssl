@@ -6,7 +6,7 @@
 /*   By: wstygg <wstygg@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/03 19:59:05 by wstygg            #+#    #+#             */
-/*   Updated: 2021/01/08 23:00:49 by wstygg           ###   ########.fr       */
+/*   Updated: 2021/01/08 23:59:59 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,9 +29,9 @@ enum				e_commands
 typedef struct		s_flags
 {
 	unsigned		p : 1;
-	unsigned 		q : 1;
-	unsigned 		r : 1;
-	unsigned 		error : 1;
+	unsigned		q : 1;
+	unsigned		r : 1;
+	unsigned		error : 1;
 	t_list			*strings;
 }					t_flags;
 
@@ -42,6 +42,8 @@ typedef struct		s_ssl
 	char			**argv;
 }					t_ssl;
 
+void				do_hash(t_ssl *ssl);
+int					check_command(char **argv);
 void				setup_ssl(t_ssl *ssl, char *argv[]);
 
 void				check_flags(t_ssl *ssl);
