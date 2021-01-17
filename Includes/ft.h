@@ -6,7 +6,7 @@
 /*   By: wstygg <wstygg@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/03 19:59:15 by wstygg            #+#    #+#             */
-/*   Updated: 2021/01/08 23:53:36 by wstygg           ###   ########.fr       */
+/*   Updated: 2021/01/09 10:09:25 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,6 +41,7 @@ void			ft_free_split(register char **array);
 int				ft_strncmp(register void *s1,
 					register void *s2, register size_t n);
 char			*ft_strchr(const char *s, int c);
+void			ft_memcpy(void *to, const void *from, size_t len);
 size_t			ft_strarraylen(char **array);
 
 int				ft_str_is_empty(const char *str);

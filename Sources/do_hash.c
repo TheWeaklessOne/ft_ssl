@@ -14,13 +14,6 @@
 
 void		do_hash(t_ssl *ssl)
 {
-	printf("Current alg - %d\nFlags: r - %u q - %u p - %u",
-		   ssl->command, ssl->flags.r, ssl->flags.q, ssl->flags.p);
-	t_list *lst = ssl->flags.strings;
-	while (lst)
-	{
-		printf(" s - %s ", (char*)lst->content);
-		lst = lst->next;
-	}
-	printf("\n");
+	if (ssl->command == MD5)
+		printf("%s\n", do_md5(ssl->flags.strings->content));
 }

@@ -13,13 +13,14 @@ SRC_DIR		=	Sources/
 INC_DIR		=	Includes/
 OBJ_DIR		=	.objs/
 
-SRC_BASE	=	ft/ft_1.c			\
-				ft/ft_2.c			\
-				ft/ft_3.c			\
-				ft/list.c			\
-				ft/ft_strsplit.c	\
-				ft/ft_open_file.c	\
-				ft/ft_read_file.c	\
+SRC_BASE	=	Ft/ft_1.c			\
+				Ft/ft_2.c			\
+				Ft/ft_3.c			\
+				Ft/list.c			\
+				Ft/ft_strsplit.c	\
+				Ft/ft_open_file.c	\
+				Ft/ft_read_file.c	\
+				Algorithms/md5.c	\
 				main.c				\
 				do_hash.c			\
 				put_info.c			\

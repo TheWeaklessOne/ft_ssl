@@ -143,6 +143,222 @@ ft_ssl/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/build
 .PHONY : ft_ssl/fast
 
+Sources/Algorithms/md5.o: Sources/Algorithms/md5.c.o
+
+.PHONY : Sources/Algorithms/md5.o
+
+# target to build an object file
+Sources/Algorithms/md5.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/md5.c.o
+.PHONY : Sources/Algorithms/md5.c.o
+
+Sources/Algorithms/md5.i: Sources/Algorithms/md5.c.i
+
+.PHONY : Sources/Algorithms/md5.i
+
+# target to preprocess a source file
+Sources/Algorithms/md5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/md5.c.i
+.PHONY : Sources/Algorithms/md5.c.i
+
+Sources/Algorithms/md5.s: Sources/Algorithms/md5.c.s
+
+.PHONY : Sources/Algorithms/md5.s
+
+# target to generate assembly for a file
+Sources/Algorithms/md5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/md5.c.s
+.PHONY : Sources/Algorithms/md5.c.s
+
+Sources/Ft/ft_1.o: Sources/Ft/ft_1.c.o
+
+.PHONY : Sources/Ft/ft_1.o
+
+# target to build an object file
+Sources/Ft/ft_1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/ft_1.c.o
+.PHONY : Sources/Ft/ft_1.c.o
+
+Sources/Ft/ft_1.i: Sources/Ft/ft_1.c.i
+
+.PHONY : Sources/Ft/ft_1.i
+
+# target to preprocess a source file
+Sources/Ft/ft_1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/ft_1.c.i
+.PHONY : Sources/Ft/ft_1.c.i
+
+Sources/Ft/ft_1.s: Sources/Ft/ft_1.c.s
+
+.PHONY : Sources/Ft/ft_1.s
+
+# target to generate assembly for a file
+Sources/Ft/ft_1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/ft_1.c.s
+.PHONY : Sources/Ft/ft_1.c.s
+
+Sources/Ft/ft_2.o: Sources/Ft/ft_2.c.o
+
+.PHONY : Sources/Ft/ft_2.o
+
+# target to build an object file
+Sources/Ft/ft_2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/ft_2.c.o
+.PHONY : Sources/Ft/ft_2.c.o
+
+Sources/Ft/ft_2.i: Sources/Ft/ft_2.c.i
+
+.PHONY : Sources/Ft/ft_2.i
+
+# target to preprocess a source file
+Sources/Ft/ft_2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/ft_2.c.i
+.PHONY : Sources/Ft/ft_2.c.i
+
+Sources/Ft/ft_2.s: Sources/Ft/ft_2.c.s
+
+.PHONY : Sources/Ft/ft_2.s
+
+# target to generate assembly for a file
+Sources/Ft/ft_2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/ft_2.c.s
+.PHONY : Sources/Ft/ft_2.c.s
+
+Sources/Ft/ft_3.o: Sources/Ft/ft_3.c.o
+
+.PHONY : Sources/Ft/ft_3.o
+
+# target to build an object file
+Sources/Ft/ft_3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/ft_3.c.o
+.PHONY : Sources/Ft/ft_3.c.o
+
+Sources/Ft/ft_3.i: Sources/Ft/ft_3.c.i
+
+.PHONY : Sources/Ft/ft_3.i
+
+# target to preprocess a source file
+Sources/Ft/ft_3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/ft_3.c.i
+.PHONY : Sources/Ft/ft_3.c.i
+
+Sources/Ft/ft_3.s: Sources/Ft/ft_3.c.s
+
+.PHONY : Sources/Ft/ft_3.s
+
+# target to generate assembly for a file
+Sources/Ft/ft_3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/ft_3.c.s
+.PHONY : Sources/Ft/ft_3.c.s
+
+Sources/Ft/ft_open_file.o: Sources/Ft/ft_open_file.c.o
+
+.PHONY : Sources/Ft/ft_open_file.o
+
+# target to build an object file
+Sources/Ft/ft_open_file.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/ft_open_file.c.o
+.PHONY : Sources/Ft/ft_open_file.c.o
+
+Sources/Ft/ft_open_file.i: Sources/Ft/ft_open_file.c.i
+
+.PHONY : Sources/Ft/ft_open_file.i
+
+# target to preprocess a source file
+Sources/Ft/ft_open_file.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/ft_open_file.c.i
+.PHONY : Sources/Ft/ft_open_file.c.i
+
+Sources/Ft/ft_open_file.s: Sources/Ft/ft_open_file.c.s
+
+.PHONY : Sources/Ft/ft_open_file.s
+
+# target to generate assembly for a file
+Sources/Ft/ft_open_file.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/ft_open_file.c.s
+.PHONY : Sources/Ft/ft_open_file.c.s
+
+Sources/Ft/ft_read_file.o: Sources/Ft/ft_read_file.c.o
+
+.PHONY : Sources/Ft/ft_read_file.o
+
+# target to build an object file
+Sources/Ft/ft_read_file.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/ft_read_file.c.o
+.PHONY : Sources/Ft/ft_read_file.c.o
+
+Sources/Ft/ft_read_file.i: Sources/Ft/ft_read_file.c.i
+
+.PHONY : Sources/Ft/ft_read_file.i
+
+# target to preprocess a source file
+Sources/Ft/ft_read_file.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/ft_read_file.c.i
+.PHONY : Sources/Ft/ft_read_file.c.i
+
+Sources/Ft/ft_read_file.s: Sources/Ft/ft_read_file.c.s
+
+.PHONY : Sources/Ft/ft_read_file.s
+
+# target to generate assembly for a file
+Sources/Ft/ft_read_file.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/ft_read_file.c.s
+.PHONY : Sources/Ft/ft_read_file.c.s
+
+Sources/Ft/ft_strsplit.o: Sources/Ft/ft_strsplit.c.o
+
+.PHONY : Sources/Ft/ft_strsplit.o
+
+# target to build an object file
+Sources/Ft/ft_strsplit.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/ft_strsplit.c.o
+.PHONY : Sources/Ft/ft_strsplit.c.o
+
+Sources/Ft/ft_strsplit.i: Sources/Ft/ft_strsplit.c.i
+
+.PHONY : Sources/Ft/ft_strsplit.i
+
+# target to preprocess a source file
+Sources/Ft/ft_strsplit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/ft_strsplit.c.i
+.PHONY : Sources/Ft/ft_strsplit.c.i
+
+Sources/Ft/ft_strsplit.s: Sources/Ft/ft_strsplit.c.s
+
+.PHONY : Sources/Ft/ft_strsplit.s
+
+# target to generate assembly for a file
+Sources/Ft/ft_strsplit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/ft_strsplit.c.s
+.PHONY : Sources/Ft/ft_strsplit.c.s
+
+Sources/Ft/list.o: Sources/Ft/list.c.o
+
+.PHONY : Sources/Ft/list.o
+
+# target to build an object file
+Sources/Ft/list.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/list.c.o
+.PHONY : Sources/Ft/list.c.o
+
+Sources/Ft/list.i: Sources/Ft/list.c.i
+
+.PHONY : Sources/Ft/list.i
+
+# target to preprocess a source file
+Sources/Ft/list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/list.c.i
+.PHONY : Sources/Ft/list.c.i
+
+Sources/Ft/list.s: Sources/Ft/list.c.s
+
+.PHONY : Sources/Ft/list.s
+
+# target to generate assembly for a file
+Sources/Ft/list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Ft/list.c.s
+.PHONY : Sources/Ft/list.c.s
+
 Sources/check_command.o: Sources/check_command.c.o
 
 .PHONY : Sources/check_command.o
@@ -223,195 +439,6 @@ Sources/do_hash.s: Sources/do_hash.c.s
 Sources/do_hash.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/do_hash.c.s
 .PHONY : Sources/do_hash.c.s
-
-Sources/ft/ft_1.o: Sources/ft/ft_1.c.o
-
-.PHONY : Sources/ft/ft_1.o
-
-# target to build an object file
-Sources/ft/ft_1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/ft_1.c.o
-.PHONY : Sources/ft/ft_1.c.o
-
-Sources/ft/ft_1.i: Sources/ft/ft_1.c.i
-
-.PHONY : Sources/ft/ft_1.i
-
-# target to preprocess a source file
-Sources/ft/ft_1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/ft_1.c.i
-.PHONY : Sources/ft/ft_1.c.i
-
-Sources/ft/ft_1.s: Sources/ft/ft_1.c.s
-
-.PHONY : Sources/ft/ft_1.s
-
-# target to generate assembly for a file
-Sources/ft/ft_1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/ft_1.c.s
-.PHONY : Sources/ft/ft_1.c.s
-
-Sources/ft/ft_2.o: Sources/ft/ft_2.c.o
-
-.PHONY : Sources/ft/ft_2.o
-
-# target to build an object file
-Sources/ft/ft_2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/ft_2.c.o
-.PHONY : Sources/ft/ft_2.c.o
-
-Sources/ft/ft_2.i: Sources/ft/ft_2.c.i
-
-.PHONY : Sources/ft/ft_2.i
-
-# target to preprocess a source file
-Sources/ft/ft_2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/ft_2.c.i
-.PHONY : Sources/ft/ft_2.c.i
-
-Sources/ft/ft_2.s: Sources/ft/ft_2.c.s
-
-.PHONY : Sources/ft/ft_2.s
-
-# target to generate assembly for a file
-Sources/ft/ft_2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/ft_2.c.s
-.PHONY : Sources/ft/ft_2.c.s
-
-Sources/ft/ft_3.o: Sources/ft/ft_3.c.o
-
-.PHONY : Sources/ft/ft_3.o
-
-# target to build an object file
-Sources/ft/ft_3.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/ft_3.c.o
-.PHONY : Sources/ft/ft_3.c.o
-
-Sources/ft/ft_3.i: Sources/ft/ft_3.c.i
-
-.PHONY : Sources/ft/ft_3.i
-
-# target to preprocess a source file
-Sources/ft/ft_3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/ft_3.c.i
-.PHONY : Sources/ft/ft_3.c.i
-
-Sources/ft/ft_3.s: Sources/ft/ft_3.c.s
-
-.PHONY : Sources/ft/ft_3.s
-
-# target to generate assembly for a file
-Sources/ft/ft_3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/ft_3.c.s
-.PHONY : Sources/ft/ft_3.c.s
-
-Sources/ft/ft_open_file.o: Sources/ft/ft_open_file.c.o
-
-.PHONY : Sources/ft/ft_open_file.o
-
-# target to build an object file
-Sources/ft/ft_open_file.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/ft_open_file.c.o
-.PHONY : Sources/ft/ft_open_file.c.o
-
-Sources/ft/ft_open_file.i: Sources/ft/ft_open_file.c.i
-
-.PHONY : Sources/ft/ft_open_file.i
-
-# target to preprocess a source file
-Sources/ft/ft_open_file.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/ft_open_file.c.i
-.PHONY : Sources/ft/ft_open_file.c.i
-
-Sources/ft/ft_open_file.s: Sources/ft/ft_open_file.c.s
-
-.PHONY : Sources/ft/ft_open_file.s
-
-# target to generate assembly for a file
-Sources/ft/ft_open_file.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/ft_open_file.c.s
-.PHONY : Sources/ft/ft_open_file.c.s
-
-Sources/ft/ft_read_file.o: Sources/ft/ft_read_file.c.o
-
-.PHONY : Sources/ft/ft_read_file.o
-
-# target to build an object file
-Sources/ft/ft_read_file.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/ft_read_file.c.o
-.PHONY : Sources/ft/ft_read_file.c.o
-
-Sources/ft/ft_read_file.i: Sources/ft/ft_read_file.c.i
-
-.PHONY : Sources/ft/ft_read_file.i
-
-# target to preprocess a source file
-Sources/ft/ft_read_file.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/ft_read_file.c.i
-.PHONY : Sources/ft/ft_read_file.c.i
-
-Sources/ft/ft_read_file.s: Sources/ft/ft_read_file.c.s
-
-.PHONY : Sources/ft/ft_read_file.s
-
-# target to generate assembly for a file
-Sources/ft/ft_read_file.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/ft_read_file.c.s
-.PHONY : Sources/ft/ft_read_file.c.s
-
-Sources/ft/ft_strsplit.o: Sources/ft/ft_strsplit.c.o
-
-.PHONY : Sources/ft/ft_strsplit.o
-
-# target to build an object file
-Sources/ft/ft_strsplit.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/ft_strsplit.c.o
-.PHONY : Sources/ft/ft_strsplit.c.o
-
-Sources/ft/ft_strsplit.i: Sources/ft/ft_strsplit.c.i
-
-.PHONY : Sources/ft/ft_strsplit.i
-
-# target to preprocess a source file
-Sources/ft/ft_strsplit.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/ft_strsplit.c.i
-.PHONY : Sources/ft/ft_strsplit.c.i
-
-Sources/ft/ft_strsplit.s: Sources/ft/ft_strsplit.c.s
-
-.PHONY : Sources/ft/ft_strsplit.s
-
-# target to generate assembly for a file
-Sources/ft/ft_strsplit.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/ft_strsplit.c.s
-.PHONY : Sources/ft/ft_strsplit.c.s
-
-Sources/ft/list.o: Sources/ft/list.c.o
-
-.PHONY : Sources/ft/list.o
-
-# target to build an object file
-Sources/ft/list.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/list.c.o
-.PHONY : Sources/ft/list.c.o
-
-Sources/ft/list.i: Sources/ft/list.c.i
-
-.PHONY : Sources/ft/list.i
-
-# target to preprocess a source file
-Sources/ft/list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/list.c.i
-.PHONY : Sources/ft/list.c.i
-
-Sources/ft/list.s: Sources/ft/list.c.s
-
-.PHONY : Sources/ft/list.s
-
-# target to generate assembly for a file
-Sources/ft/list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/ft/list.c.s
-.PHONY : Sources/ft/list.c.s
 
 Sources/get_commands.o: Sources/get_commands.c.o
 
@@ -557,6 +584,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ft_ssl"
+	@echo "... Sources/Algorithms/md5.o"
+	@echo "... Sources/Algorithms/md5.i"
+	@echo "... Sources/Algorithms/md5.s"
+	@echo "... Sources/Ft/ft_1.o"
+	@echo "... Sources/Ft/ft_1.i"
+	@echo "... Sources/Ft/ft_1.s"
+	@echo "... Sources/Ft/ft_2.o"
+	@echo "... Sources/Ft/ft_2.i"
+	@echo "... Sources/Ft/ft_2.s"
+	@echo "... Sources/Ft/ft_3.o"
+	@echo "... Sources/Ft/ft_3.i"
+	@echo "... Sources/Ft/ft_3.s"
+	@echo "... Sources/Ft/ft_open_file.o"
+	@echo "... Sources/Ft/ft_open_file.i"
+	@echo "... Sources/Ft/ft_open_file.s"
+	@echo "... Sources/Ft/ft_read_file.o"
+	@echo "... Sources/Ft/ft_read_file.i"
+	@echo "... Sources/Ft/ft_read_file.s"
+	@echo "... Sources/Ft/ft_strsplit.o"
+	@echo "... Sources/Ft/ft_strsplit.i"
+	@echo "... Sources/Ft/ft_strsplit.s"
+	@echo "... Sources/Ft/list.o"
+	@echo "... Sources/Ft/list.i"
+	@echo "... Sources/Ft/list.s"
 	@echo "... Sources/check_command.o"
 	@echo "... Sources/check_command.i"
 	@echo "... Sources/check_command.s"
@@ -566,27 +617,6 @@ help:
 	@echo "... Sources/do_hash.o"
 	@echo "... Sources/do_hash.i"
 	@echo "... Sources/do_hash.s"
-	@echo "... Sources/ft/ft_1.o"
-	@echo "... Sources/ft/ft_1.i"
-	@echo "... Sources/ft/ft_1.s"
-	@echo "... Sources/ft/ft_2.o"
-	@echo "... Sources/ft/ft_2.i"
-	@echo "... Sources/ft/ft_2.s"
-	@echo "... Sources/ft/ft_3.o"
-	@echo "... Sources/ft/ft_3.i"
-	@echo "... Sources/ft/ft_3.s"
-	@echo "... Sources/ft/ft_open_file.o"
-	@echo "... Sources/ft/ft_open_file.i"
-	@echo "... Sources/ft/ft_open_file.s"
-	@echo "... Sources/ft/ft_read_file.o"
-	@echo "... Sources/ft/ft_read_file.i"
-	@echo "... Sources/ft/ft_read_file.s"
-	@echo "... Sources/ft/ft_strsplit.o"
-	@echo "... Sources/ft/ft_strsplit.i"
-	@echo "... Sources/ft/ft_strsplit.s"
-	@echo "... Sources/ft/list.o"
-	@echo "... Sources/ft/list.i"
-	@echo "... Sources/ft/list.s"
 	@echo "... Sources/get_commands.o"
 	@echo "... Sources/get_commands.i"
 	@echo "... Sources/get_commands.s"

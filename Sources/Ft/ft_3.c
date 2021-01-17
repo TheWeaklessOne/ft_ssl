@@ -6,7 +6,7 @@
 /*   By: wstygg <wstygg@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/08 23:55:22 by wstygg            #+#    #+#             */
-/*   Updated: 2021/01/08 23:55:26 by wstygg           ###   ########.fr       */
+/*   Updated: 2021/01/09 10:09:25 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,4 +60,16 @@ int			ft_str_is_empty(const char *str)
 		++str;
 	}
 	return (1);
+}
+
+void		ft_memcpy(void *to, const void *from, size_t len)
+{
+	char			*s1;
+	register size_t	i;
+	const char		*s2 = from;
+
+	i = -1;
+	s1 = to;
+	while (++i < len)
+		s1[i] = s2[i];
 }

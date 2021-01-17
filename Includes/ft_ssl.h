@@ -15,6 +15,7 @@
 
 # include <readline/readline.h>
 
+# include "md5.h"
 # include "ft.h"
 
 # define USAGE "usage: ft_ssl command [-pqr] [-s string] [files ...]"

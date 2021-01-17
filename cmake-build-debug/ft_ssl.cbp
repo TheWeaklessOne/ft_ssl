@@ -83,6 +83,33 @@
 		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Includes/list.h">
 			<Option target="ft_ssl"/>
 		</Unit>
+		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Includes/md5.h">
+			<Option target="ft_ssl"/>
+		</Unit>
+		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Algorithms/md5.c">
+			<Option target="ft_ssl"/>
+		</Unit>
+		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Ft/ft_1.c">
+			<Option target="ft_ssl"/>
+		</Unit>
+		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Ft/ft_2.c">
+			<Option target="ft_ssl"/>
+		</Unit>
+		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Ft/ft_3.c">
+			<Option target="ft_ssl"/>
+		</Unit>
+		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Ft/ft_open_file.c">
+			<Option target="ft_ssl"/>
+		</Unit>
+		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Ft/ft_read_file.c">
+			<Option target="ft_ssl"/>
+		</Unit>
+		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Ft/ft_strsplit.c">
+			<Option target="ft_ssl"/>
+		</Unit>
+		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Ft/list.c">
+			<Option target="ft_ssl"/>
+		</Unit>
 		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/check_command.c">
 			<Option target="ft_ssl"/>
 		</Unit>
@@ -90,27 +117,6 @@
 			<Option target="ft_ssl"/>
 		</Unit>
 		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/do_hash.c">
-			<Option target="ft_ssl"/>
-		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/ft/ft_1.c">
-			<Option target="ft_ssl"/>
-		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/ft/ft_2.c">
-			<Option target="ft_ssl"/>
-		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/ft/ft_3.c">
-			<Option target="ft_ssl"/>
-		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/ft/ft_open_file.c">
-			<Option target="ft_ssl"/>
-		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/ft/ft_read_file.c">
-			<Option target="ft_ssl"/>
-		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/ft/ft_strsplit.c">
-			<Option target="ft_ssl"/>
-		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/ft/list.c">
 			<Option target="ft_ssl"/>
 		</Unit>
 		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/get_commands.c">
