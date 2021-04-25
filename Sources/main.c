@@ -6,7 +6,7 @@
 /*   By: wstygg <wstygg@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/03 19:59:11 by wstygg            #+#    #+#             */
-/*   Updated: 2021/01/09 00:00:48 by wstygg           ###   ########.fr       */
+/*   Updated: 2021/04/25 17:46:35 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,13 @@
 
 static void			reset_ssl(t_ssl *ssl)
 {
+	ssl->command = NONE;
 	ssl->flags.strings = list_remove_all(ssl->flags.strings, 1);
 	ssl->flags = (t_flags){0};
+	ft_free_split(ssl->argv_head);
+	ssl->argv = NULL;
+	ssl->argv_head = NULL;
+
 }
 
 static char			*get_command(void)
@@ -39,8 +44,8 @@ static void			hashing_loop(t_ssl *ssl)
 		free(command);
 		command = get_command();
 		add_history(command);
-		ft_free_split(ssl->argv);
 		ssl->argv = ft_strsplit(command, ' ');
+		ssl->argv_head = ssl->argv;
 		while (!(ssl->command = check_command(ssl->argv)))
 		{
 			put_info(command);
@@ -49,6 +54,7 @@ static void			hashing_loop(t_ssl *ssl)
 			add_history(command);
 			ft_free_split(ssl->argv);
 			ssl->argv = ft_strsplit(command, ' ');
+			ssl->argv_head = ssl->argv;
 		}
 		check_flags(ssl);
 		if (!ssl->flags.error)
@@ -74,9 +80,8 @@ static void			hash_from_args(t_ssl *ssl)
 
 int					main(int argc, char *argv[])
 {
-	t_ssl			ssl;
+	t_ssl			ssl = {0};
 
-	ssl = (t_ssl){0};
 	setup_ssl(&ssl, argv);
 	initialize_readline();
 	if (argc > 1)

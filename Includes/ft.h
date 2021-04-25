@@ -26,7 +26,7 @@
 # define IS_X			4
 # define IS_D			8
 
-# define READ_SIZE		3
+# define READ_SIZE		1
 
 void			*ft_malloc(size_t size);
 size_t			ft_putstr_fd(const char *str, int fd);

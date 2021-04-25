@@ -3,14 +3,23 @@
 
 # include "ft.h"
 
-typedef struct	s_md5
+typedef struct		s_md5_var
 {
-	unsigned	*abcd;
-	unsigned	*aabbccdd;
-	unsigned	*shifts;
-	unsigned	*constants;
-}				t_md5;
+	int32_t			a;
+	int32_t			b;
+	int32_t			c;
+	int32_t			d;
+}					t_md5_var;
 
-char				*do_md5(const unsigned char *data);
+typedef struct		s_md5
+{
+	int32_t			r[64];
+	int32_t			k[64];
+
+	int32_t			h0;
+	int32_t			h1;
+	int32_t			h2;
+	int32_t			h3;
+}					t_md5;
 
 #endif

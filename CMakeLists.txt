@@ -21,4 +21,5 @@ add_executable(ft_ssl Sources/Ft/ft_1.c
         Sources/Ft/list.c
         Sources/check_command.c
         Sources/do_hash.c
-        Includes/md5.h Sources/Algorithms/md5.c)
+        Includes/md5.h
+        Sources/Algorithms/md5.c)

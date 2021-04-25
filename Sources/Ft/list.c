@@ -17,6 +17,8 @@ t_list			*list_add_back(t_list *list, void *content)
 	t_list		*item;
 	t_list		*ret;
 
+	if (!content)
+		return list;
 	if (!list)
 		return (list_create(content));
 	ret = list;

@@ -30,7 +30,35 @@ unistd.h
 stdlib.h
 -
 
+/Users/wstygg/Desktop/ft_ssl/Sources/check_command.c
+ft_ssl.h
+/Users/wstygg/Desktop/ft_ssl/Sources/ft_ssl.h
+
+/Users/wstygg/Desktop/ft_ssl/Sources/check_flags.c
+ft_ssl.h
+/Users/wstygg/Desktop/ft_ssl/Sources/ft_ssl.h
+
+/Users/wstygg/Desktop/ft_ssl/Sources/do_hash.c
+ft_ssl.h
+/Users/wstygg/Desktop/ft_ssl/Sources/ft_ssl.h
+
+/Users/wstygg/Desktop/ft_ssl/Sources/get_commands.c
+ft_ssl.h
+-
+
 /Users/wstygg/Desktop/ft_ssl/Sources/main.c
+ft_ssl.h
+/Users/wstygg/Desktop/ft_ssl/Sources/ft_ssl.h
+
+/Users/wstygg/Desktop/ft_ssl/Sources/put_info.c
+ft_ssl.h
+/Users/wstygg/Desktop/ft_ssl/Sources/ft_ssl.h
+
+/Users/wstygg/Desktop/ft_ssl/Sources/setup_readline.c
+ft_ssl.h
+/Users/wstygg/Desktop/ft_ssl/Sources/ft_ssl.h
+
+/Users/wstygg/Desktop/ft_ssl/Sources/setup_ssl.c
 ft_ssl.h
 /Users/wstygg/Desktop/ft_ssl/Sources/ft_ssl.h
 

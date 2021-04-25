@@ -69,13 +69,14 @@ static size_t			fn_size(register char const *s, register char c)
 
 void					ft_free_split(register char **array)
 {
-	register char		*str;
-	register char		**tmp;
+	register int		i = -1;
 
-	tmp = array;
-	while ((str = array++[0]) != 0)
-		free(str);
-	free(tmp);
+	if (!array)
+		return;
+	while (array[++i]) {
+		free(array[i]);
+	}
+	free(array);
 }
 
 char					**ft_strsplit(register char const *s, register char c)

@@ -18,6 +18,7 @@ static void			setup_argv(t_ssl *ssl, char *argv[])
 	register int	j;
 
 	ssl->argv = ft_malloc(sizeof(char*) * ft_strarraylen(argv));
+	ssl->argv_head = ssl->argv;
 	i = 0;
 	j = -1;
 	while (argv[++i])
