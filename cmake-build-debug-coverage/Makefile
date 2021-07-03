@@ -169,6 +169,60 @@ Sources/Algorithms/md5.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/md5.c.s
 .PHONY : Sources/Algorithms/md5.c.s
 
+Sources/Algorithms/sha256.o: Sources/Algorithms/sha256.c.o
+
+.PHONY : Sources/Algorithms/sha256.o
+
+# target to build an object file
+Sources/Algorithms/sha256.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.o
+.PHONY : Sources/Algorithms/sha256.c.o
+
+Sources/Algorithms/sha256.i: Sources/Algorithms/sha256.c.i
+
+.PHONY : Sources/Algorithms/sha256.i
+
+# target to preprocess a source file
+Sources/Algorithms/sha256.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.i
+.PHONY : Sources/Algorithms/sha256.c.i
+
+Sources/Algorithms/sha256.s: Sources/Algorithms/sha256.c.s
+
+.PHONY : Sources/Algorithms/sha256.s
+
+# target to generate assembly for a file
+Sources/Algorithms/sha256.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.s
+.PHONY : Sources/Algorithms/sha256.c.s
+
+Sources/Algorithms/utils.o: Sources/Algorithms/utils.c.o
+
+.PHONY : Sources/Algorithms/utils.o
+
+# target to build an object file
+Sources/Algorithms/utils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/utils.c.o
+.PHONY : Sources/Algorithms/utils.c.o
+
+Sources/Algorithms/utils.i: Sources/Algorithms/utils.c.i
+
+.PHONY : Sources/Algorithms/utils.i
+
+# target to preprocess a source file
+Sources/Algorithms/utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/utils.c.i
+.PHONY : Sources/Algorithms/utils.c.i
+
+Sources/Algorithms/utils.s: Sources/Algorithms/utils.c.s
+
+.PHONY : Sources/Algorithms/utils.s
+
+# target to generate assembly for a file
+Sources/Algorithms/utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/utils.c.s
+.PHONY : Sources/Algorithms/utils.c.s
+
 Sources/Ft/ft_1.o: Sources/Ft/ft_1.c.o
 
 .PHONY : Sources/Ft/ft_1.o
@@ -439,32 +493,32 @@ Sources/do_hash.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/do_hash.c.s
 .PHONY : Sources/do_hash.c.s
 
-Sources/get_commands.o: Sources/get_commands.c.o
+Sources/hash.o: Sources/hash.c.o
 
-.PHONY : Sources/get_commands.o
+.PHONY : Sources/hash.o
 
 # target to build an object file
-Sources/get_commands.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/get_commands.c.o
-.PHONY : Sources/get_commands.c.o
+Sources/hash.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/hash.c.o
+.PHONY : Sources/hash.c.o
 
-Sources/get_commands.i: Sources/get_commands.c.i
+Sources/hash.i: Sources/hash.c.i
 
-.PHONY : Sources/get_commands.i
+.PHONY : Sources/hash.i
 
 # target to preprocess a source file
-Sources/get_commands.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/get_commands.c.i
-.PHONY : Sources/get_commands.c.i
+Sources/hash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/hash.c.i
+.PHONY : Sources/hash.c.i
 
-Sources/get_commands.s: Sources/get_commands.c.s
+Sources/hash.s: Sources/hash.c.s
 
-.PHONY : Sources/get_commands.s
+.PHONY : Sources/hash.s
 
 # target to generate assembly for a file
-Sources/get_commands.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/get_commands.c.s
-.PHONY : Sources/get_commands.c.s
+Sources/hash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/hash.c.s
+.PHONY : Sources/hash.c.s
 
 Sources/main.o: Sources/main.c.o
 
@@ -586,6 +640,12 @@ help:
 	@echo "... Sources/Algorithms/md5.o"
 	@echo "... Sources/Algorithms/md5.i"
 	@echo "... Sources/Algorithms/md5.s"
+	@echo "... Sources/Algorithms/sha256.o"
+	@echo "... Sources/Algorithms/sha256.i"
+	@echo "... Sources/Algorithms/sha256.s"
+	@echo "... Sources/Algorithms/utils.o"
+	@echo "... Sources/Algorithms/utils.i"
+	@echo "... Sources/Algorithms/utils.s"
 	@echo "... Sources/Ft/ft_1.o"
 	@echo "... Sources/Ft/ft_1.i"
 	@echo "... Sources/Ft/ft_1.s"
@@ -616,9 +676,9 @@ help:
 	@echo "... Sources/do_hash.o"
 	@echo "... Sources/do_hash.i"
 	@echo "... Sources/do_hash.s"
-	@echo "... Sources/get_commands.o"
-	@echo "... Sources/get_commands.i"
-	@echo "... Sources/get_commands.s"
+	@echo "... Sources/hash.o"
+	@echo "... Sources/hash.i"
+	@echo "... Sources/hash.s"
 	@echo "... Sources/main.o"
 	@echo "... Sources/main.i"
 	@echo "... Sources/main.s"

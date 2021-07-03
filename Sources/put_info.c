@@ -1,25 +1,12 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   put_info.c                                         :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: wstygg <wstygg@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/08 23:57:30 by wstygg            #+#    #+#             */
-/*   Updated: 2021/01/09 08:32:39 by wstygg           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "ft_ssl.h"
 
 static void			put_commands(void)
 {
 	register int	i;
-	const int		max = COMMANDS_N - 1;
 
-	i = -1;
-	while (++i < max)
-		ft_putendl_fd(get_commands()[i], 2);
+	i = 0;
+	while (++i < HASH_TYPES_N)
+		ft_putendl_fd(hash_type_names[i], 2);
 }
 
 void				put_info(const char *command)

@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ft_ssl.dir/Sources/Algorithms/md5.c.o"
+  "CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.o"
+  "CMakeFiles/ft_ssl.dir/Sources/Algorithms/utils.c.o"
   "CMakeFiles/ft_ssl.dir/Sources/Ft/ft_1.c.o"
   "CMakeFiles/ft_ssl.dir/Sources/Ft/ft_2.c.o"
   "CMakeFiles/ft_ssl.dir/Sources/Ft/ft_3.c.o"
@@ -10,7 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft_ssl.dir/Sources/check_command.c.o"
   "CMakeFiles/ft_ssl.dir/Sources/check_flags.c.o"
   "CMakeFiles/ft_ssl.dir/Sources/do_hash.c.o"
-  "CMakeFiles/ft_ssl.dir/Sources/get_commands.c.o"
+  "CMakeFiles/ft_ssl.dir/Sources/hash.c.o"
   "CMakeFiles/ft_ssl.dir/Sources/main.c.o"
   "CMakeFiles/ft_ssl.dir/Sources/put_info.c.o"
   "CMakeFiles/ft_ssl.dir/Sources/setup_readline.c.o"

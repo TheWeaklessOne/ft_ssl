@@ -86,7 +86,16 @@
 		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Includes/md5.h">
 			<Option target="ft_ssl"/>
 		</Unit>
+		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Includes/sha256.h">
+			<Option target="ft_ssl"/>
+		</Unit>
 		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Algorithms/md5.c">
+			<Option target="ft_ssl"/>
+		</Unit>
+		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Algorithms/sha256.c">
+			<Option target="ft_ssl"/>
+		</Unit>
+		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Algorithms/utils.c">
 			<Option target="ft_ssl"/>
 		</Unit>
 		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Ft/ft_1.c">
@@ -119,7 +128,7 @@
 		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/do_hash.c">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/get_commands.c">
+		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/hash.c">
 			<Option target="ft_ssl"/>
 		</Unit>
 		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/main.c">

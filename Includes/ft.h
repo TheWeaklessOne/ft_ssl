@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft.h                                               :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: wstygg <wstygg@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/03 19:59:15 by wstygg            #+#    #+#             */
-/*   Updated: 2021/01/09 10:09:25 by wstygg           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #ifndef FT_SSL_MD5_FT_H
 # define FT_SSL_MD5_FT_H
 
@@ -43,6 +31,8 @@ int				ft_strncmp(register void *s1,
 char			*ft_strchr(const char *s, int c);
 void			ft_memcpy(void *to, const void *from, size_t len);
 size_t			ft_strarraylen(char **array);
+void			*ft_memset(void *memory, int value, size_t size);
+void			ft_itoh(int number, char *output, int length);
 
 int				ft_str_is_empty(const char *str);
 void			ft_free(void **to_free);
@@ -50,5 +40,10 @@ void			ft_free(void **to_free);
 int				ft_check_file(const char *path, unsigned check);
 int				ft_open_file(const char *path);
 char			*ft_read_file(int fd);
+
+uint32_t		left_rotate(uint32_t a,  uint32_t b);
+uint32_t		right_rotate(uint32_t a,  uint32_t b);
+uint32_t		swap_endian_32(uint32_t n);
+uint64_t		swap_endian_64(uint64_t n);
 
 #endif

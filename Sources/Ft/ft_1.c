@@ -1,19 +1,9 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_1.c                                             :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: wstygg <wstygg@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/03 19:59:21 by wstygg            #+#    #+#             */
-/*   Updated: 2021/01/03 19:59:30 by wstygg           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "ft.h"
 
 size_t				ft_putstr_fd(const char *str, int fd)
 {
+	if (!str)
+		return 0;
 	return (write(fd, str, ft_strlen(str)));
 }
 
@@ -33,7 +23,8 @@ void				*ft_malloc(size_t size)
 	char			*ret;
 
 	i = -1;
-	if (!(ret = malloc(size)))
+	ret = malloc(size);
+	if (!ret)
 	{
 		write(2, "Malloc error!\n", 14);
 		exit(EXIT_FAILURE);

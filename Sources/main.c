@@ -1,26 +1,13 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: wstygg <wstygg@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/03 19:59:11 by wstygg            #+#    #+#             */
-/*   Updated: 2021/04/25 17:46:35 by wstygg           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "ft_ssl.h"
 
 static void			reset_ssl(t_ssl *ssl)
 {
-	ssl->command = NONE;
-	ssl->flags.strings = list_remove_all(ssl->flags.strings, 1);
-	ssl->flags = (t_flags){0};
+	ssl->hash_type = NONE;
+	ssl->hashes = remove_all_hashes(ssl->hashes);
 	ft_free_split(ssl->argv_head);
 	ssl->argv = NULL;
 	ssl->argv_head = NULL;
-
+	ssl->error = 0;
 }
 
 static char			*get_command(void)
@@ -44,20 +31,23 @@ static void			hashing_loop(t_ssl *ssl)
 		free(command);
 		command = get_command();
 		add_history(command);
+		ft_free_split(ssl->argv_head);
+		ssl->argv_head = NULL;
 		ssl->argv = ft_strsplit(command, ' ');
 		ssl->argv_head = ssl->argv;
-		while (!(ssl->command = check_command(ssl->argv)))
+		while (!(ssl->hash_type = check_command(ssl->argv)))
 		{
 			put_info(command);
 			ft_free((void**)&command);
 			command = get_command();
 			add_history(command);
-			ft_free_split(ssl->argv);
+			ft_free_split(ssl->argv_head);
+			ssl->argv_head = NULL;
 			ssl->argv = ft_strsplit(command, ' ');
 			ssl->argv_head = ssl->argv;
 		}
 		check_flags(ssl);
-		if (!ssl->flags.error)
+		if (!ssl->error)
 			do_hash(ssl);
 		reset_ssl(ssl);
 	}
@@ -65,14 +55,14 @@ static void			hashing_loop(t_ssl *ssl)
 
 static void			hash_from_args(t_ssl *ssl)
 {
-	if ((ssl->command = check_command(ssl->argv)))
+	if ((ssl->hash_type = check_command(ssl->argv)))
 	{
 		check_flags(ssl);
-		if (!ssl->flags.error)
+		if (!ssl->error)
 			return (do_hash(ssl));
 		ft_putendl_fd(USAGE, 2);
 	}
-	if (!ssl->flags.error)
+	if (!ssl->error)
 		put_info(ssl->argv[0]);
 	reset_ssl(ssl);
 	hashing_loop(ssl);

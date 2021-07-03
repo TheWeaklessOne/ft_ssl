@@ -18,47 +18,19 @@ sys/stat.h
 list.h
 ../Includes/list.h
 
-../Includes/ft_ssl.h
-readline/readline.h
--
-ft.h
-../Includes/ft.h
-
 ../Includes/list.h
 unistd.h
 -
 stdlib.h
 -
 
-/Users/wstygg/Desktop/ft_ssl/Sources/check_command.c
-ft_ssl.h
-/Users/wstygg/Desktop/ft_ssl/Sources/ft_ssl.h
+../Includes/sha256.h
+ft.h
+../Includes/ft.h
 
-/Users/wstygg/Desktop/ft_ssl/Sources/check_flags.c
-ft_ssl.h
-/Users/wstygg/Desktop/ft_ssl/Sources/ft_ssl.h
-
-/Users/wstygg/Desktop/ft_ssl/Sources/do_hash.c
-ft_ssl.h
-/Users/wstygg/Desktop/ft_ssl/Sources/ft_ssl.h
-
-/Users/wstygg/Desktop/ft_ssl/Sources/get_commands.c
-ft_ssl.h
--
-
-/Users/wstygg/Desktop/ft_ssl/Sources/main.c
-ft_ssl.h
-/Users/wstygg/Desktop/ft_ssl/Sources/ft_ssl.h
-
-/Users/wstygg/Desktop/ft_ssl/Sources/put_info.c
-ft_ssl.h
-/Users/wstygg/Desktop/ft_ssl/Sources/ft_ssl.h
-
-/Users/wstygg/Desktop/ft_ssl/Sources/setup_readline.c
-ft_ssl.h
-/Users/wstygg/Desktop/ft_ssl/Sources/ft_ssl.h
-
-/Users/wstygg/Desktop/ft_ssl/Sources/setup_ssl.c
-ft_ssl.h
-/Users/wstygg/Desktop/ft_ssl/Sources/ft_ssl.h
+/Users/wstygg/Desktop/ft_ssl/Sources/Algorithms/sha256.c
+sha256.h
+/Users/wstygg/Desktop/ft_ssl/Sources/Algorithms/sha256.h
+stdio.h
+/Users/wstygg/Desktop/ft_ssl/Sources/Algorithms/stdio.h
 

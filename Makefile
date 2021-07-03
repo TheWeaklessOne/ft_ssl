@@ -1,9 +1,6 @@
 NAME		=	ft_ssl
 
-
 CC			=	gcc
-
-uname_S		:= $(shell uname -s)
 
 FLAGS		=	-lreadline -g3
 
@@ -20,13 +17,15 @@ SRC_BASE	=	Ft/ft_1.c			\
 				Ft/ft_strsplit.c	\
 				Ft/ft_open_file.c	\
 				Ft/ft_read_file.c	\
+				Algorithms/utils.c	\
 				Algorithms/md5.c	\
+				Algorithms/sha256.c	\
 				main.c				\
+				hash.c				\
 				do_hash.c			\
 				put_info.c			\
 				setup_ssl.c			\
 				check_flags.c		\
-				get_commands.c		\
 				check_command.c		\
 				setup_readline.c	\
 
@@ -68,6 +67,8 @@ fclean:		clean
 	@rm -f $(NAME)
 	@printf "\r\033[38;5;196m❌ fclean $(NAME)\033[0m\033[K\n"
 
-re:		fclean all
+re:			fclean all
 
 -include $(OBJS:.o=.d)
+
+.PHONY:		re fclean clean all capitalized

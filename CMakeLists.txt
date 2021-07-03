@@ -11,7 +11,6 @@ add_executable(ft_ssl Sources/Ft/ft_1.c
         Sources/Ft/ft_read_file.c
         Sources/Ft/ft_strsplit.c
         Sources/main.c
-        Sources/get_commands.c
         Sources/put_info.c
         Sources/setup_readline.c
         Sources/Ft/ft_3.c
@@ -22,4 +21,5 @@ add_executable(ft_ssl Sources/Ft/ft_1.c
         Sources/check_command.c
         Sources/do_hash.c
         Includes/md5.h
-        Sources/Algorithms/md5.c)
+        Sources/Algorithms/md5.c
+        Sources/hash.c Includes/sha256.h Sources/Algorithms/sha256.c Sources/Algorithms/utils.c)

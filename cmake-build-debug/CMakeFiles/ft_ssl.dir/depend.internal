@@ -6,6 +6,15 @@ CMakeFiles/ft_ssl.dir/Sources/Algorithms/md5.c.o
  ../Includes/list.h
  ../Includes/md5.h
  /Users/wstygg/Desktop/ft_ssl/Sources/Algorithms/md5.c
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.o
+ ../Includes/ft.h
+ ../Includes/list.h
+ ../Includes/sha256.h
+ /Users/wstygg/Desktop/ft_ssl/Sources/Algorithms/sha256.c
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/utils.c.o
+ ../Includes/ft.h
+ ../Includes/list.h
+ /Users/wstygg/Desktop/ft_ssl/Sources/Algorithms/utils.c
 CMakeFiles/ft_ssl.dir/Sources/Ft/ft_1.c.o
  ../Includes/ft.h
  ../Includes/list.h
@@ -48,11 +57,11 @@ CMakeFiles/ft_ssl.dir/Sources/do_hash.c.o
  ../Includes/ft_ssl.h
  ../Includes/list.h
  /Users/wstygg/Desktop/ft_ssl/Sources/do_hash.c
-CMakeFiles/ft_ssl.dir/Sources/get_commands.c.o
+CMakeFiles/ft_ssl.dir/Sources/hash.c.o
  ../Includes/ft.h
  ../Includes/ft_ssl.h
  ../Includes/list.h
- /Users/wstygg/Desktop/ft_ssl/Sources/get_commands.c
+ /Users/wstygg/Desktop/ft_ssl/Sources/hash.c
 CMakeFiles/ft_ssl.dir/Sources/main.c.o
  ../Includes/ft.h
  ../Includes/ft_ssl.h

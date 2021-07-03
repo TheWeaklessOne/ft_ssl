@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_3.c                                             :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: wstygg <wstygg@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/08 23:55:22 by wstygg            #+#    #+#             */
-/*   Updated: 2021/01/09 10:09:25 by wstygg           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "ft.h"
 
 size_t		ft_strarraylen(char **array)
@@ -37,13 +25,17 @@ int			ft_strncmp(register void *s1, register void *s2, register size_t n)
 	return (litter - ((unsigned char *)s2)[i]);
 }
 
-char		*ft_strchr(const char *s, int c)
+void		*ft_memset(void *memory, int value, size_t size)
 {
-	while (s[0] != 0 && s[0] != c)
-		s++;
-	if (s[0] == c)
-		return ((char *)s);
-	return (0);
+	register size_t	i = 0;
+	char			*temp = memory;
+
+	while (i < size)
+	{
+		temp[i] = value;
+		++i;
+	}
+	return (memory);
 }
 
 int			ft_str_is_empty(const char *str)
@@ -72,4 +64,17 @@ void		ft_memcpy(void *to, const void *from, size_t len)
 	s1 = to;
 	while (++i < len)
 		s1[i] = s2[i];
+}
+
+void			ft_itoh(int number, char *output, int length) {
+	char c;
+
+	for (register int i = length - 1; i != -1; --i) {
+		c = (char)(number % 16);
+		if (c < 10)
+			output[i] = (char)(c + '0');
+		else
+			output[i] = (char)(c - 10 + 'a');
+		number /= 16;
+	}
 }
