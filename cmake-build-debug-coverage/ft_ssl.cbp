@@ -8,142 +8,142 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage"/>
+				<Option working_dir="/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage"/>
+				<Option working_dir="/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage"/>
+				<Option working_dir="/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ft_ssl">
-				<Option output="/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/ft_ssl" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage"/>
+				<Option output="/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/ft_ssl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/wstygg/Desktop/ft_ssl/Includes"/>
+					<Add directory="/Users/daniilteterin/Desktop/ft_ssl/Includes"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 ft_ssl"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 ft_ssl"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ft_ssl/fast">
-				<Option output="/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/ft_ssl" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage"/>
+				<Option output="/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/ft_ssl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/wstygg/Desktop/ft_ssl/Includes"/>
+					<Add directory="/Users/daniilteterin/Desktop/ft_ssl/Includes"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 ft_ssl/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wstygg/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 ft_ssl/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Includes/list.h">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Includes/list.h">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Includes/md5.h">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Includes/md5.h">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Includes/sha256.h">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Includes/sha256.h">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Algorithms/md5.c">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/md5.c">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Algorithms/sha256.c">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha256.c">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Algorithms/utils.c">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/utils.c">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Ft/ft_1.c">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/Ft/ft_1.c">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Ft/ft_2.c">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/Ft/ft_2.c">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Ft/ft_3.c">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/Ft/ft_3.c">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Ft/ft_open_file.c">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/Ft/ft_open_file.c">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Ft/ft_read_file.c">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/Ft/ft_read_file.c">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Ft/ft_strsplit.c">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/Ft/ft_strsplit.c">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/Ft/list.c">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/Ft/list.c">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/check_command.c">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/check_command.c">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/check_flags.c">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/check_flags.c">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/do_hash.c">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/do_hash.c">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/hash.c">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/hash.c">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/main.c">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/main.c">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/put_info.c">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/put_info.c">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/setup_readline.c">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/setup_readline.c">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/Sources/setup_ssl.c">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/setup_ssl.c">
 			<Option target="ft_ssl"/>
 		</Unit>
-		<Unit filename="/Users/wstygg/Desktop/ft_ssl/CMakeLists.txt">
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

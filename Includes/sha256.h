@@ -21,8 +21,6 @@ typedef struct			s_sha256 {
 	uint32_t			h5;
 	uint32_t			h6;
 	uint32_t			h7;
-
-	uint32_t			words[128];
 }						t_sha256;
 
 typedef union			u_digest {

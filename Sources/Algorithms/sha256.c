@@ -1,6 +1,6 @@
 #include "sha256.h"
 
-static void			chunk_loop(const uint32_t *chunk, t_sha256 *sha_p) {
+static void			chunk_loop(const uint32_t chunk[64], t_sha256 *sha_p) {
 	uint32_t		e0;
 	uint32_t		ma;
 	uint32_t		t2;
@@ -31,7 +31,6 @@ static void			chunk_loop(const uint32_t *chunk, t_sha256 *sha_p) {
 }
 
 static void			extend_chunk(uint32_t chunk[64]) {
-
 	uint32_t 		s0;
 	uint32_t		s1;
 
@@ -111,20 +110,9 @@ static void			calc_result(const t_sha256 *sha, char *result)
 	digest.bytes.g = sha->h6;
 	digest.bytes.h = sha->h7;
 
-	printf(
-			"%d - %d - %d - %d - %d - %d - %d - %d\n",
-			sha->h0,
-			sha->h1,
-			sha->h2,
-			sha->h3,
-			sha->h4,
-			sha->h5,
-			sha->h6,
-			sha->h7
-	);
-	for (register int i = 0; i < 32; ++i) {
+	for (register int i = 0; i < 32; ++i)
 		ft_itoh(digest.digest[i], result + i * 2, 2);
-	}
+	printf("\n");
 }
 
 char				*do_sha256(const char *data) {

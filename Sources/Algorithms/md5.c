@@ -1,6 +1,6 @@
 #include "md5.h"
 
-static void			chunk_loop(const uint32_t *M, t_md5 *md5) {
+static void			chunk_loop(const uint32_t chunk[16], t_md5 *md5) {
 	uint32_t		F;
 	uint32_t		g;
 
@@ -19,7 +19,7 @@ static void			chunk_loop(const uint32_t *M, t_md5 *md5) {
 			g = (7 * i) % 16;
 		}
 
-		F += md5->A + constants[i] + M[g];
+		F += md5->A + constants[i] + chunk[g];
 		md5->A = md5->D;
 		md5->D = md5->C;
 		md5->C = md5->B;
@@ -81,9 +81,8 @@ static void			calc_result(const t_md5* md5, char *result)
 	digest.bytes.c = md5->c0;
 	digest.bytes.d = md5->d0;
 
-	for (register int i = 0; i < 16; ++i) {
+	for (register int i = 0; i < 16; ++i)
 		ft_itoh(digest.digest[i], result + i * 2, 2);
-	}
 }
 
 char				*do_md5(const char *data) {
@@ -95,7 +94,7 @@ char				*do_md5(const char *data) {
 	md5.c0 = 0x98BADCFE;
 	md5.d0 = 0x10325476;
 	hash(&md5, data);
-	result = ft_malloc(33);
+	result = ft_malloc(32 + 1);
 	calc_result(&md5, result);
 	return result;
 }
