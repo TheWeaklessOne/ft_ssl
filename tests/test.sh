@@ -37,6 +37,11 @@ test md5 empty.txt
 test md5 long.txt
 echo
 
+# SHA224
+test sha224 empty.txt
+test sha224 long.txt
+echo
+
 # SHA256
 test sha256 empty.txt
 test sha256 long.txt

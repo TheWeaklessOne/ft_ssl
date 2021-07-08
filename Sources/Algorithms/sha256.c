@@ -95,7 +95,7 @@ static void			hash(t_sha *sha, const char *data) {
 	ft_memcpy(block, data, string_len);
 	block[string_len] = 128;
 	string_len_in_bits = swap_endian_64(string_len_in_bits);
-	ft_memcpy(block + block_size_in_bytes + 8, (uint64_t*)&string_len_in_bits, 8);
+	ft_memcpy(block + block_size_in_bytes, (uint64_t*)&string_len_in_bits, 8);
 
 	block_loop(sha, block, block_size_in_bytes + 8);
 	free(block);
