@@ -23,7 +23,7 @@ static void			chunk_loop(const uint32_t chunk[16], t_md5 *md5) {
 		md5->A = md5->D;
 		md5->D = md5->C;
 		md5->C = md5->B;
-		md5->B += left_rotate(F, shifts[i]);
+		md5->B += left_rotate_32(F, shifts[i]);
 	}
 }
 
@@ -63,7 +63,7 @@ static void			hash(t_md5 *md5, const char *data) {
 		++block_size_in_bytes;
 	block_size_in_bytes /= 8;
 
-	block = ft_malloc(block_size_in_bytes + 64);
+	block = ft_malloc(block_size_in_bytes + sizeof(uint64_t));
 	ft_memcpy(block, data, string_len);
 	block[string_len] = 128;
 	ft_memcpy(block + block_size_in_bytes, (uint64_t*)&string_len_in_bits, 8);

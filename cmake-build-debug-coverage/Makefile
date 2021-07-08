@@ -170,6 +170,33 @@ Sources/Algorithms/md5.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/md5.c.s
 .PHONY : Sources/Algorithms/md5.c.s
 
+Sources/Algorithms/sha224.o: Sources/Algorithms/sha224.c.o
+
+.PHONY : Sources/Algorithms/sha224.o
+
+# target to build an object file
+Sources/Algorithms/sha224.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha224.c.o
+.PHONY : Sources/Algorithms/sha224.c.o
+
+Sources/Algorithms/sha224.i: Sources/Algorithms/sha224.c.i
+
+.PHONY : Sources/Algorithms/sha224.i
+
+# target to preprocess a source file
+Sources/Algorithms/sha224.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha224.c.i
+.PHONY : Sources/Algorithms/sha224.c.i
+
+Sources/Algorithms/sha224.s: Sources/Algorithms/sha224.c.s
+
+.PHONY : Sources/Algorithms/sha224.s
+
+# target to generate assembly for a file
+Sources/Algorithms/sha224.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha224.c.s
+.PHONY : Sources/Algorithms/sha224.c.s
+
 Sources/Algorithms/sha256.o: Sources/Algorithms/sha256.c.o
 
 .PHONY : Sources/Algorithms/sha256.o
@@ -196,6 +223,33 @@ Sources/Algorithms/sha256.s: Sources/Algorithms/sha256.c.s
 Sources/Algorithms/sha256.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.s
 .PHONY : Sources/Algorithms/sha256.c.s
+
+Sources/Algorithms/sha512.o: Sources/Algorithms/sha512.c.o
+
+.PHONY : Sources/Algorithms/sha512.o
+
+# target to build an object file
+Sources/Algorithms/sha512.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.o
+.PHONY : Sources/Algorithms/sha512.c.o
+
+Sources/Algorithms/sha512.i: Sources/Algorithms/sha512.c.i
+
+.PHONY : Sources/Algorithms/sha512.i
+
+# target to preprocess a source file
+Sources/Algorithms/sha512.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.i
+.PHONY : Sources/Algorithms/sha512.c.i
+
+Sources/Algorithms/sha512.s: Sources/Algorithms/sha512.c.s
+
+.PHONY : Sources/Algorithms/sha512.s
+
+# target to generate assembly for a file
+Sources/Algorithms/sha512.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.s
+.PHONY : Sources/Algorithms/sha512.c.s
 
 Sources/Algorithms/utils.o: Sources/Algorithms/utils.c.o
 
@@ -641,9 +695,15 @@ help:
 	@echo "... Sources/Algorithms/md5.o"
 	@echo "... Sources/Algorithms/md5.i"
 	@echo "... Sources/Algorithms/md5.s"
+	@echo "... Sources/Algorithms/sha224.o"
+	@echo "... Sources/Algorithms/sha224.i"
+	@echo "... Sources/Algorithms/sha224.s"
 	@echo "... Sources/Algorithms/sha256.o"
 	@echo "... Sources/Algorithms/sha256.i"
 	@echo "... Sources/Algorithms/sha256.s"
+	@echo "... Sources/Algorithms/sha512.o"
+	@echo "... Sources/Algorithms/sha512.i"
+	@echo "... Sources/Algorithms/sha512.s"
 	@echo "... Sources/Algorithms/utils.o"
 	@echo "... Sources/Algorithms/utils.i"
 	@echo "... Sources/Algorithms/utils.s"

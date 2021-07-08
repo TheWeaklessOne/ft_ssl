@@ -5,7 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/md5.c" "/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/CMakeFiles/ft_ssl.dir/Sources/Algorithms/md5.c.o"
+  "/Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha224.c" "/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha224.c.o"
   "/Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha256.c" "/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.o"
+  "/Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha512.c" "/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.o"
   "/Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/utils.c" "/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/CMakeFiles/ft_ssl.dir/Sources/Algorithms/utils.c.o"
   "/Users/daniilteterin/Desktop/ft_ssl/Sources/Ft/ft_1.c" "/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/CMakeFiles/ft_ssl.dir/Sources/Ft/ft_1.c.o"
   "/Users/daniilteterin/Desktop/ft_ssl/Sources/Ft/ft_2.c" "/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/CMakeFiles/ft_ssl.dir/Sources/Ft/ft_2.c.o"

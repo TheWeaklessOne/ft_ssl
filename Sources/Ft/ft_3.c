@@ -66,7 +66,7 @@ void		ft_memcpy(void *to, const void *from, size_t len)
 		s1[i] = s2[i];
 }
 
-void			ft_itoh(int number, char *output, int length) {
+void			ft_itoh(uint32_t number, char *output, int length) {
 	char c;
 
 	for (register int i = length - 1; i != -1; --i) {

@@ -61,9 +61,11 @@ static void	do_p_flag(t_ssl *ssl, char *(apply_function)(const char*)) {
 }
 
 static char *(*apply_functions[HASH_TYPES_N])(const char*) = {
-		NULL,
-		do_md5,
-		do_sha256
+	NULL,
+	do_md5,
+	do_sha224,
+	do_sha256,
+	do_sha512
 };
 
 void		do_hash(t_ssl *ssl) {

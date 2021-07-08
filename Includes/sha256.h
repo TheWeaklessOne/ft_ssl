@@ -3,7 +3,7 @@
 
 #include "ft.h"
 
-typedef struct			s_sha256 {
+typedef struct			s_sha {
 	uint32_t			a;
 	uint32_t			b;
 	uint32_t			c;
@@ -21,7 +21,7 @@ typedef struct			s_sha256 {
 	uint32_t			h5;
 	uint32_t			h6;
 	uint32_t			h7;
-}						t_sha256;
+}						t_sha;
 
 typedef union			u_digest {
 	unsigned char		digest[32];

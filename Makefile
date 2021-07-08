@@ -18,8 +18,6 @@ SRC_BASE	=	Ft/ft_1.c			\
 				Ft/ft_open_file.c	\
 				Ft/ft_read_file.c	\
 				Algorithms/utils.c	\
-				Algorithms/md5.c	\
-				Algorithms/sha256.c	\
 				main.c				\
 				hash.c				\
 				do_hash.c			\
@@ -28,6 +26,10 @@ SRC_BASE	=	Ft/ft_1.c			\
 				check_flags.c		\
 				check_command.c		\
 				setup_readline.c	\
+				Algorithms/md5.c	\
+				Algorithms/sha224.c	\
+                Algorithms/sha256.c	\
+				Algorithms/sha512.c	\
 
 SRCS		=	$(addprefix $(SRC_DIR), $(SRC_BASE))
 OBJS		=	$(addprefix $(OBJ_DIR), $(SRC_BASE:.c=.o))

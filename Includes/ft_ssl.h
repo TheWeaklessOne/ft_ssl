@@ -10,7 +10,9 @@
 #define FOREACH_HASH(HASH)	\
 	HASH(NONE)				\
 	HASH(MD5)				\
-	HASH(SHA256)			\
+	HASH(SHA224)			\
+    HASH(SHA256)			\
+    HASH(SHA512)			\
 	HASH(HASH_TYPES_N)		\
 
 #define GENERATE_ENUM(ENUM) ENUM,
@@ -63,7 +65,9 @@ int					check_command(char **argv);
 void				setup_ssl(t_ssl *ssl, char *argv[]);
 
 char				*do_md5(const char *data);
+char				*do_sha224(const char *data);
 char				*do_sha256(const char *data);
+char				*do_sha512(const char *data);
 
 void				free_hash(t_hash_info *info);
 t_list 				*remove_all_hashes(t_list *list);

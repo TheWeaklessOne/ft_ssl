@@ -1,6 +1,6 @@
 #include "sha256.h"
 
-static void			chunk_loop(const uint32_t chunk[64], t_sha256 *sha_p) {
+static void			chunk_loop(const uint32_t chunk[64], t_sha *sha_p) {
 	uint32_t		e0;
 	uint32_t		ma;
 	uint32_t		t2;
@@ -8,13 +8,13 @@ static void			chunk_loop(const uint32_t chunk[64], t_sha256 *sha_p) {
 	uint32_t		ch;
 	uint32_t		t1;
 
-	t_sha256		sha = *sha_p;
+	t_sha			sha = *sha_p;
 
 	for (register int i = 0; i < 64; ++i) {
-		e0 = right_rotate(sha.a, 2) ^ right_rotate(sha.a, 13) ^ right_rotate(sha.a, 22);
+		e0 = right_rotate_32(sha.a, 2) ^ right_rotate_32(sha.a, 13) ^ right_rotate_32(sha.a, 22);
 		ma = (sha.a & sha.b) ^ (sha.a & sha.c) ^ (sha.b & sha.c);
 		t2 = e0 + ma;
-		e1 = right_rotate(sha.e, 6) ^ right_rotate(sha.e, 11) ^ right_rotate(sha.e, 25);
+		e1 = right_rotate_32(sha.e, 6) ^ right_rotate_32(sha.e, 11) ^ right_rotate_32(sha.e, 25);
 		ch = (sha.e & sha.f) ^ ((~sha.e) & sha.g);
 		t1 = sha.h + e1 + ch + constants[i] + chunk[i];
 
@@ -34,14 +34,19 @@ static void			extend_chunk(uint32_t chunk[64]) {
 	uint32_t 		s0;
 	uint32_t		s1;
 
-	for (register int i = 16; i < 64; ++i) {
-		s0 = right_rotate(chunk[i - 15], 7) ^ right_rotate(chunk[i - 15], 18) ^ (chunk[i - 15] >> 3);
-		s1 = right_rotate(chunk[i - 2], 17) ^ right_rotate(chunk[i - 2], 19) ^ (chunk[i - 2] >> 10);
+	register int i;
+
+	for (i = 0; i < 16; ++i)
+		chunk[i] = swap_endian_32(chunk[i]);
+
+	for (i = 16; i < 64; ++i) {
+		s0 = right_rotate_32(chunk[i - 15], 7) ^ right_rotate_32(chunk[i - 15], 18) ^ (chunk[i - 15] >> 3);
+		s1 = right_rotate_32(chunk[i - 2], 17) ^ right_rotate_32(chunk[i - 2], 19) ^ (chunk[i - 2] >> 10);
 		chunk[i] = chunk[i - 16] + s0 + chunk[i - 7] + s1;
 	}
 }
 
-static void			block_loop(t_sha256 *sha, const unsigned char *block, const size_t size_in_bytes) {
+static void			block_loop(t_sha *sha, const unsigned char *block, const size_t size_in_bytes) {
 	u_int32_t		chunk[64] = {0};
 	register size_t	offset;
 
@@ -74,9 +79,9 @@ static void			block_loop(t_sha256 *sha, const unsigned char *block, const size_t
 	}
 }
 
-static void			hash(t_sha256 *sha, const char *data) {
+static void			hash(t_sha *sha, const char *data) {
 	const size_t	string_len = ft_strlen(data);
-	const size_t	string_len_in_bits = string_len * 8;
+	size_t			string_len_in_bits = string_len * 8;
 
 	unsigned char	*block;
 	size_t			block_size_in_bytes;
@@ -86,37 +91,36 @@ static void			hash(t_sha256 *sha, const char *data) {
 		++block_size_in_bytes;
 	block_size_in_bytes /= 8;
 
-	block = ft_malloc(block_size_in_bytes + 64);
+	block = ft_malloc(block_size_in_bytes + 8);
 	ft_memcpy(block, data, string_len);
 	block[string_len] = 128;
-	ft_memcpy(block + block_size_in_bytes, (uint64_t*)&string_len_in_bits, 8);
+	string_len_in_bits = swap_endian_64(string_len_in_bits);
+	ft_memcpy(block + block_size_in_bytes + 8, (uint64_t*)&string_len_in_bits, 8);
 
 	block_loop(sha, block, block_size_in_bytes + 8);
 	free(block);
 }
 
-#include "stdio.h"
-
-static void			calc_result(const t_sha256 *sha, char *result)
+static void			calc_result(const t_sha *sha, char *result)
 {
 	t_digest		digest;
 
-	digest.bytes.a = sha->h0;
-	digest.bytes.b = sha->h1;
-	digest.bytes.c = sha->h2;
-	digest.bytes.d = sha->h3;
-	digest.bytes.e = sha->h4;
-	digest.bytes.f = sha->h5;
-	digest.bytes.g = sha->h6;
-	digest.bytes.h = sha->h7;
+	digest.bytes.a = reverse_byte_order_32(sha->h0);
+	digest.bytes.b = reverse_byte_order_32(sha->h1);
+	digest.bytes.c = reverse_byte_order_32(sha->h2);
+	digest.bytes.d = reverse_byte_order_32(sha->h3);
+	digest.bytes.e = reverse_byte_order_32(sha->h4);
+	digest.bytes.f = reverse_byte_order_32(sha->h5);
+	digest.bytes.g = reverse_byte_order_32(sha->h6);
+	digest.bytes.h = reverse_byte_order_32(sha->h7);
 
-	for (register int i = 0; i < 32; ++i)
+	for (register int i = 0; i < 32; ++i) {
 		ft_itoh(digest.digest[i], result + i * 2, 2);
-	printf("\n");
+	}
 }
 
 char				*do_sha256(const char *data) {
-	t_sha256 		sha;
+	t_sha 			sha;
 	char			*result;
 
 	sha.h0 = 0x6A09E667;

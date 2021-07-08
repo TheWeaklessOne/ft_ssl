@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ft_ssl.dir/Sources/Algorithms/md5.c.o"
+  "CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha224.c.o"
   "CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.o"
+  "CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.o"
   "CMakeFiles/ft_ssl.dir/Sources/Algorithms/utils.c.o"
   "CMakeFiles/ft_ssl.dir/Sources/Ft/ft_1.c.o"
   "CMakeFiles/ft_ssl.dir/Sources/Ft/ft_2.c.o"
