@@ -2,6 +2,16 @@
 
 Partial recreation of openSSL utility
 
+## Supported Ciphers
+
+* MD5
+* SHA224
+* SHA256
+* SHA384
+* SHA512
+* SHA512_224
+* SHA512_256
+
 ## Installation
 1. Download/Clone this repo
 ```
