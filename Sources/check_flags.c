@@ -29,9 +29,10 @@ static char	check_symbols(const char *str, t_flags *flags, t_ssl *ssl)
 
 static int	drop_error(const char *error, const char *str, t_ssl *ssl)
 {
-	ft_putendl_fd(error, 2);
+	ft_putstr_fd(error, 2);
 	if (str)
-		ft_putendl_fd(str, 2);
+		ft_putstr_fd(str, 2);
+	write(2, "\n", 1);
 	ssl->error = 1;
 	return (0);
 }
