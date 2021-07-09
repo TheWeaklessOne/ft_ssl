@@ -22,7 +22,7 @@ git clone https://github.com/TheWeaklessOne/ft_ssl.git
 2. `cd` into directrory and run `make`
 ```
 make
-./ft_openssl
+./ft_ssl
 ```
 ## Main project instructions
 #### General Instructions
