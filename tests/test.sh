@@ -46,3 +46,13 @@ echo
 test sha256 empty.txt
 test sha256 long.txt
 echo
+
+# SHA384
+test sha384 empty.txt
+test sha384 long.txt
+echo
+
+# SHA512
+test sha512 empty.txt
+test sha512 long.txt
+echo

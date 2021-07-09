@@ -324,9 +324,22 @@ CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha256.c -o CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.s
 
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha384.c.o: CMakeFiles/ft_ssl.dir/flags.make
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha384.c.o: ../Sources/Algorithms/sha384.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha384.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha384.c.o   -c /Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha384.c
+
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha384.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha384.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha384.c > CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha384.c.i
+
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha384.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha384.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha384.c -o CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha384.c.s
+
 CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.o: CMakeFiles/ft_ssl.dir/flags.make
 CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.o: ../Sources/Algorithms/sha512.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.o   -c /Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha512.c
 
 CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.i: cmake_force
@@ -336,6 +349,32 @@ CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.i: cmake_force
 CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha512.c -o CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.s
+
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_224.c.o: CMakeFiles/ft_ssl.dir/flags.make
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_224.c.o: ../Sources/Algorithms/sha512_224.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_224.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_224.c.o   -c /Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha512_224.c
+
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_224.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_224.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha512_224.c > CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_224.c.i
+
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_224.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_224.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha512_224.c -o CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_224.c.s
+
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_256.c.o: CMakeFiles/ft_ssl.dir/flags.make
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_256.c.o: ../Sources/Algorithms/sha512_256.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_256.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_256.c.o   -c /Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha512_256.c
+
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_256.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_256.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha512_256.c > CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_256.c.i
+
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_256.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_256.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha512_256.c -o CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_256.c.s
 
 # Object files for target ft_ssl
 ft_ssl_OBJECTS = \
@@ -358,7 +397,10 @@ ft_ssl_OBJECTS = \
 "CMakeFiles/ft_ssl.dir/Sources/Algorithms/md5.c.o" \
 "CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha224.c.o" \
 "CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.o" \
-"CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.o"
+"CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha384.c.o" \
+"CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.o" \
+"CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_224.c.o" \
+"CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_256.c.o"
 
 # External object files for target ft_ssl
 ft_ssl_EXTERNAL_OBJECTS =
@@ -382,10 +424,13 @@ ft_ssl: CMakeFiles/ft_ssl.dir/Sources/Algorithms/utils.c.o
 ft_ssl: CMakeFiles/ft_ssl.dir/Sources/Algorithms/md5.c.o
 ft_ssl: CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha224.c.o
 ft_ssl: CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.o
+ft_ssl: CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha384.c.o
 ft_ssl: CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.o
+ft_ssl: CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_224.c.o
+ft_ssl: CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_256.c.o
 ft_ssl: CMakeFiles/ft_ssl.dir/build.make
 ft_ssl: CMakeFiles/ft_ssl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable ft_ssl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/daniilteterin/Desktop/ft_ssl/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C executable ft_ssl"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ft_ssl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

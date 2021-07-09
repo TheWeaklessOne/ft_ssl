@@ -10,7 +10,7 @@ static void			chunk_loop(const u_int64_t chunk[80], t_sha *sha_p) {
 
 	t_sha			sha = *sha_p;
 
-	for (register int i = 0; i < 64; ++i) {
+	for (register int i = 0; i < 80; ++i) {
 		e0 = right_rotate_64(sha.a, 28) ^ right_rotate_64(sha.a, 34) ^ right_rotate_64(sha.a, 39);
 		ma = (sha.a & sha.b) ^ (sha.a & sha.c) ^ (sha.b & sha.c);
 		t2 = e0 + ma;
@@ -95,7 +95,7 @@ static void			hash(t_sha *sha, const char *data) {
 	ft_memcpy(block, data, string_len);
 	block[string_len] = 128;
 	string_len_in_bits = swap_endian_64(string_len_in_bits);
-	ft_memcpy(block + block_size_in_bytes, &string_len_in_bits, 16);
+	ft_memcpy(block + block_size_in_bytes + 8, &string_len_in_bits, 8);
 
 	block_loop(sha, block, block_size_in_bytes + 16);
 	free(block);

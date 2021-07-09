@@ -2,15 +2,15 @@
 
 /// --------------------- 32 ---------------------
 
-uint32_t		left_rotate_32(uint32_t a, uint32_t b) {
+inline uint32_t		left_rotate_32(uint32_t a, uint32_t b) {
 	return (a << b) | (a >> (32 - b));
 }
 
-uint32_t		right_rotate_32(uint32_t a, uint32_t b) {
+inline uint32_t		right_rotate_32(uint32_t a, uint32_t b) {
 	return (a >> b) | (a << (32 - b));
 }
 
-uint32_t		swap_endian_32(uint32_t number)
+inline uint32_t		swap_endian_32(uint32_t number)
 {
 	return (
 		((number >> 24) & 0x000000FF) |
@@ -20,7 +20,7 @@ uint32_t		swap_endian_32(uint32_t number)
 	);
 }
 
-uint32_t		reverse_byte_order_32(uint32_t number) {
+inline uint32_t		reverse_byte_order_32(uint32_t number) {
 	const t_byte_order_32	original = (t_byte_order_32) {
 			.number = number
 	};
@@ -37,15 +37,15 @@ uint32_t		reverse_byte_order_32(uint32_t number) {
 
 /// --------------------- 64 ---------------------
 
-uint64_t		left_rotate_64(uint64_t a, uint64_t b) {
+inline uint64_t		left_rotate_64(uint64_t a, uint64_t b) {
 	return (a << b) | (a >> (64 - b));
 }
 
-uint64_t		right_rotate_64(uint64_t a, uint64_t b) {
+inline uint64_t		right_rotate_64(uint64_t a, uint64_t b) {
 	return (a >> b) | (a << (64 - b));
 }
 
-uint64_t		swap_endian_64(const uint64_t number)
+inline uint64_t		swap_endian_64(const uint64_t number)
 {
 	return (
 		(number << 56) |
@@ -59,7 +59,7 @@ uint64_t		swap_endian_64(const uint64_t number)
 	);
 }
 
-uint64_t		reverse_byte_order_64(const uint64_t number) {
+inline uint64_t		reverse_byte_order_64(const uint64_t number) {
 	const t_byte_order_64	original = (t_byte_order_64) {
 		.number = number
 	};

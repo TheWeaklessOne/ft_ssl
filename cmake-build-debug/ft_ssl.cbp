@@ -101,7 +101,16 @@
 		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha256.c">
 			<Option target="ft_ssl"/>
 		</Unit>
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha384.c">
+			<Option target="ft_ssl"/>
+		</Unit>
 		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha512.c">
+			<Option target="ft_ssl"/>
+		</Unit>
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha512_224.c">
+			<Option target="ft_ssl"/>
+		</Unit>
+		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/sha512_256.c">
 			<Option target="ft_ssl"/>
 		</Unit>
 		<Unit filename="/Users/daniilteterin/Desktop/ft_ssl/Sources/Algorithms/utils.c">

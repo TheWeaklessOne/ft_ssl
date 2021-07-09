@@ -74,4 +74,5 @@ uint64_t		left_rotate_64(uint64_t a, uint64_t b);
 uint64_t		right_rotate_64(uint64_t a, uint64_t b);
 uint64_t		swap_endian_64(uint64_t number);
 uint64_t		reverse_byte_order_64(uint64_t number);
+
 #endif

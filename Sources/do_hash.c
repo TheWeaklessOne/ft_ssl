@@ -65,7 +65,10 @@ static char *(*apply_functions[HASH_TYPES_N])(const char*) = {
 	do_md5,
 	do_sha224,
 	do_sha256,
-	do_sha512
+	do_sha384,
+	do_sha512,
+	do_sha512_224,
+	do_sha512_256
 };
 
 void		do_hash(t_ssl *ssl) {

@@ -16,47 +16,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0a76396-c5a1-49d8-97a5-31518a1dddb4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.objs/Algorithms/md5.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Algorithms/md5.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Algorithms/sha224.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Algorithms/sha224.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Algorithms/sha256.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Algorithms/sha256.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Algorithms/sha512.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Algorithms/sha512.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Algorithms/utils.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Algorithms/utils.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Ft/ft_1.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Ft/ft_1.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Ft/ft_2.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Ft/ft_2.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Ft/ft_3.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Ft/ft_3.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Ft/ft_open_file.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Ft/ft_open_file.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Ft/ft_read_file.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Ft/ft_read_file.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Ft/ft_strsplit.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Ft/ft_strsplit.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Ft/list.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/Ft/list.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/check_command.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/check_command.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/check_flags.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/check_flags.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/do_hash.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/do_hash.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/hash.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/hash.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/main.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/main.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/put_info.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/put_info.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/setup_readline.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/setup_readline.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/setup_ssl.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.objs/setup_ssl.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_ssl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Includes/ft.h" beforeDir="false" afterPath="$PROJECT_DIR$/Includes/ft.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Includes/ft_ssl.h" beforeDir="false" afterPath="$PROJECT_DIR$/Includes/ft_ssl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Algorithms/sha512.c" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Algorithms/sha512.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/Algorithms/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/Algorithms/utils.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/do_hash.c" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/do_hash.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ft_ssl.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ft_ssl.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ft_ssl.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ft_ssl.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ft_ssl.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ft_ssl.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ft_ssl.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ft_ssl.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ft_ssl.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/ft_ssl.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/ft_ssl.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/ft_ssl.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/Algorithms/utils.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/Algorithms/utils.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/check_command.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/check_command.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/check_flags.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/check_flags.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/do_hash.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/do_hash.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/hash.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/hash.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/main.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/put_info.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/put_info.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/setup_readline.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/setup_readline.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/setup_ssl.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/Sources/setup_ssl.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_ssl.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_ssl" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_ssl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_ssl.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_ssl.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +122,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ft_ssl" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="sha256 empty.txt" REDIRECT_INPUT="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ft_ssl" TARGET_NAME="ft_ssl" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ft_ssl" RUN_TARGET_NAME="ft_ssl">
+    <configuration name="ft_ssl" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="sha256 tests/empty.txt" REDIRECT_INPUT="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ft_ssl" TARGET_NAME="ft_ssl" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ft_ssl" RUN_TARGET_NAME="ft_ssl">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -156,7 +156,7 @@
       <workItem from="1625318009984" duration="12348000" />
       <workItem from="1625488845370" duration="5496000" />
       <workItem from="1625747919520" duration="24000" />
-      <workItem from="1625747953040" duration="7854000" />
+      <workItem from="1625747953040" duration="11188000" />
     </task>
     <servers />
   </component>
@@ -180,26 +180,31 @@
       <screen x="0" y="0" width="2880" height="1620" />
     </state>
     <state x="1255" y="500" key="#Shell_Script/0.0.2880.1620@0.0.2880.1620" timestamp="1625750778411" />
-    <state x="1367" y="469" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625552212757">
-      <screen x="0" y="0" width="2880" height="1620" />
+    <state x="1367" y="487" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625827241666">
+      <screen x="0" y="25" width="2880" height="1595" />
     </state>
     <state x="1367" y="469" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2880.1620@0.0.2880.1620" timestamp="1625552212757" />
-    <state width="2838" height="418" key="GridCell.Tab.0.bottom" timestamp="1625748677076">
-      <screen x="0" y="0" width="2880" height="1620" />
+    <state x="1367" y="487" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2880.1595@0.25.2880.1595" timestamp="1625827241666" />
+    <state width="2838" height="418" key="GridCell.Tab.0.bottom" timestamp="1625827230853">
+      <screen x="0" y="25" width="2880" height="1595" />
     </state>
     <state width="2838" height="418" key="GridCell.Tab.0.bottom/0.0.2880.1620@0.0.2880.1620" timestamp="1625748677076" />
-    <state width="2838" height="418" key="GridCell.Tab.0.center" timestamp="1625748677075">
-      <screen x="0" y="0" width="2880" height="1620" />
+    <state width="2838" height="418" key="GridCell.Tab.0.bottom/0.25.2880.1595@0.25.2880.1595" timestamp="1625827230853" />
+    <state width="2838" height="418" key="GridCell.Tab.0.center" timestamp="1625827230853">
+      <screen x="0" y="25" width="2880" height="1595" />
     </state>
     <state width="2838" height="418" key="GridCell.Tab.0.center/0.0.2880.1620@0.0.2880.1620" timestamp="1625748677075" />
-    <state width="2838" height="418" key="GridCell.Tab.0.left" timestamp="1625748677074">
-      <screen x="0" y="0" width="2880" height="1620" />
+    <state width="2838" height="418" key="GridCell.Tab.0.center/0.25.2880.1595@0.25.2880.1595" timestamp="1625827230853" />
+    <state width="2838" height="418" key="GridCell.Tab.0.left" timestamp="1625827230853">
+      <screen x="0" y="25" width="2880" height="1595" />
     </state>
     <state width="2838" height="418" key="GridCell.Tab.0.left/0.0.2880.1620@0.0.2880.1620" timestamp="1625748677074" />
-    <state width="2838" height="418" key="GridCell.Tab.0.right" timestamp="1625748677075">
-      <screen x="0" y="0" width="2880" height="1620" />
+    <state width="2838" height="418" key="GridCell.Tab.0.left/0.25.2880.1595@0.25.2880.1595" timestamp="1625827230853" />
+    <state width="2838" height="418" key="GridCell.Tab.0.right" timestamp="1625827230853">
+      <screen x="0" y="25" width="2880" height="1595" />
     </state>
     <state width="2838" height="418" key="GridCell.Tab.0.right/0.0.2880.1620@0.0.2880.1620" timestamp="1625748677075" />
+    <state width="2838" height="418" key="GridCell.Tab.0.right/0.25.2880.1595@0.25.2880.1595" timestamp="1625827230853" />
     <state width="1912" height="843" key="GridCell.Tab.1.bottom" timestamp="1625555488573">
       <screen x="0" y="0" width="2880" height="1620" />
     </state>
@@ -236,6 +241,11 @@
           <url>file://$PROJECT_DIR$/Sources/Ft/ft_open_file.c</url>
           <line>38</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Sources/Algorithms/sha512_224.c</url>
+          <line>130</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

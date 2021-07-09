@@ -6,10 +6,35 @@ CMakeFiles/ft_ssl.dir/Sources/Algorithms/md5.c.o: ../Includes/list.h
 CMakeFiles/ft_ssl.dir/Sources/Algorithms/md5.c.o: ../Includes/md5.h
 CMakeFiles/ft_ssl.dir/Sources/Algorithms/md5.c.o: ../Sources/Algorithms/md5.c
 
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha224.c.o: ../Includes/ft.h
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha224.c.o: ../Includes/list.h
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha224.c.o: ../Includes/sha256.h
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha224.c.o: ../Sources/Algorithms/sha224.c
+
 CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.o: ../Includes/ft.h
 CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.o: ../Includes/list.h
 CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.o: ../Includes/sha256.h
 CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.o: ../Sources/Algorithms/sha256.c
+
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha384.c.o: ../Includes/ft.h
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha384.c.o: ../Includes/list.h
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha384.c.o: ../Includes/sha512.h
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha384.c.o: ../Sources/Algorithms/sha384.c
+
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.o: ../Includes/ft.h
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.o: ../Includes/list.h
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.o: ../Includes/sha512.h
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.o: ../Sources/Algorithms/sha512.c
+
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_224.c.o: ../Includes/ft.h
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_224.c.o: ../Includes/list.h
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_224.c.o: ../Includes/sha512.h
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_224.c.o: ../Sources/Algorithms/sha512_224.c
+
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_256.c.o: ../Includes/ft.h
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_256.c.o: ../Includes/list.h
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_256.c.o: ../Includes/sha512.h
+CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_256.c.o: ../Sources/Algorithms/sha512_256.c
 
 CMakeFiles/ft_ssl.dir/Sources/Algorithms/utils.c.o: ../Includes/ft.h
 CMakeFiles/ft_ssl.dir/Sources/Algorithms/utils.c.o: ../Includes/list.h

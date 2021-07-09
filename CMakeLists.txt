@@ -32,6 +32,12 @@ add_executable(ft_ssl
         Includes/sha256.h
         Sources/Algorithms/sha256.c
 
+        Sources/Algorithms/sha384.c
+
         Includes/sha512.h
         Sources/Algorithms/sha512.c
-)
+
+
+        Sources/Algorithms/sha512_224.c
+
+        Sources/Algorithms/sha512_256.c)

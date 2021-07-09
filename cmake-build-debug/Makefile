@@ -224,6 +224,33 @@ Sources/Algorithms/sha256.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha256.c.s
 .PHONY : Sources/Algorithms/sha256.c.s
 
+Sources/Algorithms/sha384.o: Sources/Algorithms/sha384.c.o
+
+.PHONY : Sources/Algorithms/sha384.o
+
+# target to build an object file
+Sources/Algorithms/sha384.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha384.c.o
+.PHONY : Sources/Algorithms/sha384.c.o
+
+Sources/Algorithms/sha384.i: Sources/Algorithms/sha384.c.i
+
+.PHONY : Sources/Algorithms/sha384.i
+
+# target to preprocess a source file
+Sources/Algorithms/sha384.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha384.c.i
+.PHONY : Sources/Algorithms/sha384.c.i
+
+Sources/Algorithms/sha384.s: Sources/Algorithms/sha384.c.s
+
+.PHONY : Sources/Algorithms/sha384.s
+
+# target to generate assembly for a file
+Sources/Algorithms/sha384.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha384.c.s
+.PHONY : Sources/Algorithms/sha384.c.s
+
 Sources/Algorithms/sha512.o: Sources/Algorithms/sha512.c.o
 
 .PHONY : Sources/Algorithms/sha512.o
@@ -250,6 +277,60 @@ Sources/Algorithms/sha512.s: Sources/Algorithms/sha512.c.s
 Sources/Algorithms/sha512.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512.c.s
 .PHONY : Sources/Algorithms/sha512.c.s
+
+Sources/Algorithms/sha512_224.o: Sources/Algorithms/sha512_224.c.o
+
+.PHONY : Sources/Algorithms/sha512_224.o
+
+# target to build an object file
+Sources/Algorithms/sha512_224.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_224.c.o
+.PHONY : Sources/Algorithms/sha512_224.c.o
+
+Sources/Algorithms/sha512_224.i: Sources/Algorithms/sha512_224.c.i
+
+.PHONY : Sources/Algorithms/sha512_224.i
+
+# target to preprocess a source file
+Sources/Algorithms/sha512_224.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_224.c.i
+.PHONY : Sources/Algorithms/sha512_224.c.i
+
+Sources/Algorithms/sha512_224.s: Sources/Algorithms/sha512_224.c.s
+
+.PHONY : Sources/Algorithms/sha512_224.s
+
+# target to generate assembly for a file
+Sources/Algorithms/sha512_224.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_224.c.s
+.PHONY : Sources/Algorithms/sha512_224.c.s
+
+Sources/Algorithms/sha512_256.o: Sources/Algorithms/sha512_256.c.o
+
+.PHONY : Sources/Algorithms/sha512_256.o
+
+# target to build an object file
+Sources/Algorithms/sha512_256.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_256.c.o
+.PHONY : Sources/Algorithms/sha512_256.c.o
+
+Sources/Algorithms/sha512_256.i: Sources/Algorithms/sha512_256.c.i
+
+.PHONY : Sources/Algorithms/sha512_256.i
+
+# target to preprocess a source file
+Sources/Algorithms/sha512_256.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_256.c.i
+.PHONY : Sources/Algorithms/sha512_256.c.i
+
+Sources/Algorithms/sha512_256.s: Sources/Algorithms/sha512_256.c.s
+
+.PHONY : Sources/Algorithms/sha512_256.s
+
+# target to generate assembly for a file
+Sources/Algorithms/sha512_256.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_ssl.dir/build.make CMakeFiles/ft_ssl.dir/Sources/Algorithms/sha512_256.c.s
+.PHONY : Sources/Algorithms/sha512_256.c.s
 
 Sources/Algorithms/utils.o: Sources/Algorithms/utils.c.o
 
@@ -701,9 +782,18 @@ help:
 	@echo "... Sources/Algorithms/sha256.o"
 	@echo "... Sources/Algorithms/sha256.i"
 	@echo "... Sources/Algorithms/sha256.s"
+	@echo "... Sources/Algorithms/sha384.o"
+	@echo "... Sources/Algorithms/sha384.i"
+	@echo "... Sources/Algorithms/sha384.s"
 	@echo "... Sources/Algorithms/sha512.o"
 	@echo "... Sources/Algorithms/sha512.i"
 	@echo "... Sources/Algorithms/sha512.s"
+	@echo "... Sources/Algorithms/sha512_224.o"
+	@echo "... Sources/Algorithms/sha512_224.i"
+	@echo "... Sources/Algorithms/sha512_224.s"
+	@echo "... Sources/Algorithms/sha512_256.o"
+	@echo "... Sources/Algorithms/sha512_256.i"
+	@echo "... Sources/Algorithms/sha512_256.s"
 	@echo "... Sources/Algorithms/utils.o"
 	@echo "... Sources/Algorithms/utils.i"
 	@echo "... Sources/Algorithms/utils.s"

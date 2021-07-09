@@ -10,26 +10,29 @@ SRC_DIR		=	Sources/
 INC_DIR		=	Includes/
 OBJ_DIR		=	.objs/
 
-SRC_BASE	=	Ft/ft_1.c			\
-				Ft/ft_2.c			\
-				Ft/ft_3.c			\
-				Ft/list.c			\
-				Ft/ft_strsplit.c	\
-				Ft/ft_open_file.c	\
-				Ft/ft_read_file.c	\
-				Algorithms/utils.c	\
-				main.c				\
-				hash.c				\
-				do_hash.c			\
-				put_info.c			\
-				setup_ssl.c			\
-				check_flags.c		\
-				check_command.c		\
-				setup_readline.c	\
-				Algorithms/md5.c	\
-				Algorithms/sha224.c	\
-                Algorithms/sha256.c	\
-				Algorithms/sha512.c	\
+SRC_BASE	=	Ft/ft_1.c				\
+				Ft/ft_2.c				\
+				Ft/ft_3.c				\
+				Ft/list.c				\
+				Ft/ft_strsplit.c		\
+				Ft/ft_open_file.c		\
+				Ft/ft_read_file.c		\
+				Algorithms/utils.c		\
+				main.c					\
+				hash.c					\
+				do_hash.c				\
+				put_info.c				\
+				setup_ssl.c				\
+				check_flags.c			\
+				check_command.c			\
+				setup_readline.c		\
+				Algorithms/md5.c		\
+				Algorithms/sha224.c		\
+                Algorithms/sha256.c		\
+                Algorithms/sha384.c		\
+				Algorithms/sha512.c		\
+				Algorithms/sha512_224.c	\
+				Algorithms/sha512_256.c	\
 
 SRCS		=	$(addprefix $(SRC_DIR), $(SRC_BASE))
 OBJS		=	$(addprefix $(OBJ_DIR), $(SRC_BASE:.c=.o))
