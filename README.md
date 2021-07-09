@@ -2,6 +2,8 @@
 
 Partial recreation of openSSL utility
 
+![ft_ssl_example_usage](https://i.imgur.com/wKLmJ8m.png)
+
 ## Supported Ciphers
 
 * MD5
